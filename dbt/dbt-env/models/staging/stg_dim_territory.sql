@@ -1,9 +1,11 @@
-{{ config (
-    materialized = 'view'
-    schema = 'stagging'
-)}}
+{{ config(
+    materialized='view',
+    schema='stagging'
+) }}
 
-select 
-    TerritoryID as territory_id,
-    TerritoryName as territory_name,
-    
+select
+    TerritoryID,
+    Name as TerritoryName,
+    CountryRegionCode,
+    [Group] as GroupName
+from {{ source('adventureworks', 'SalesTerritory') }}
