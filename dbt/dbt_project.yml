@@ -1,0 +1,31 @@
+# dbt_project.yml
+name: 'adventureworks_dw'        # Tên dbt project (phải giống tên profile)
+version: '1.0.0'
+config-version: 2
+
+profile: 'adventureworks_dw'      # Profile name (giống profiles.yml)
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+data-paths: ["data"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# Config models
+models:
+  adventureworks_dw:              
+    staging:
+      materialized: view
+      schema: stagging
+    intermediate:
+      +materialized: table
+      +schema: intermediate
+    marts:
+      materialized: table
+      schema: dw

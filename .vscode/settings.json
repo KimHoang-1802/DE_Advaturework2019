@@ -1,0 +1,4 @@
+{
+    "dbt.enableNewLineagePanel": true,
+    "git.ignoreLimitWarning": true
+}
