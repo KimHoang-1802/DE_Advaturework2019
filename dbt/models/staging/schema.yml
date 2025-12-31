@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: stagging
+    description: "Staging area loaded from AdventureWorks source system"
+    database: AdventureWorks2019
+    schema: stagging
+    tables:
+      - name: Stg_Dim_Territory
+      - name: Stg_Dim_Store
+      - name: Stg_Dim_Employee
+      - name: Stg_Dim_Customer
+      - name: Stg_Dim_Cat_Product
+      - name: Stg_Dim_Sub_Category_Product
+      - name: Stg_Dim_Product
+      - name: Stg_Fact_Sales
+
+models:
+  - name: stg_dim_territory
+    description: "Staging view for territory dimension"
+  - name: stg_dim_store
+    description: "Staging view for store dimension"
+  - name: stg_dim_employee
+    description: "Staging view for employee - contains NULL StoreID"
+  - name: stg_dim_customer
+    description: "Staging view for customer"
+  - name: stg_dim_cat_product
+    description: "Staging view for product categories"
+  - name: stg_dim_sub_category_product
+    description: "Staging view for product subcategories"
+  - name: stg_dim_product
+    description: "Staging view for products - contains NULL values"
+  - name: stg_fact_sales
+    description: "Staging view for sales - Status as numbers"

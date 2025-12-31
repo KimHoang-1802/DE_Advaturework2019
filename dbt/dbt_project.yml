@@ -8,7 +8,7 @@ profile: 'adventureworks_dw'      # Profile name (giống profiles.yml)
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
-data-paths: ["data"]
+seed-paths: ["data"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 

@@ -1,0 +1,131 @@
+version: 2
+
+models:
+  - name: dim_territory
+    description: >
+      Territory dimension table.
+      **Loads into**: dw.DIM_Territory
+    columns:
+      - name: TerritoryID
+        description: "Territory ID (PK)"
+        tests:
+          - unique
+          - not_null
+      - name: TerritoryName
+        description: "Territory name"
+      - name: CountryRegionCode
+        description: "Country/Region code"
+      - name: GroupName
+        description: "Geographic group"
+
+  - name: dim_store
+    description: >
+      Store dimension table.
+      **Loads into**: dw.DIM_Store
+    columns:
+      - name: StoreID
+        description: "Store ID (PK)"
+        tests:
+          - unique
+          - not_null
+      - name: StoreName
+        description: "Store name"
+      - name: TerritoryID
+        description: "FK to Territory"
+
+  - name: dim_employee
+    description: >
+      Employee dimension table.
+      **Loads into**: dw.DIM_Employee
+      **Data cleaned**: StoreID NULL → 0
+    columns:
+      - name: EmployeeID
+        description: "Employee ID (PK)"
+        tests:
+          - unique
+          - not_null
+      - name: FullName
+        description: "Full name"
+      - name: StoreID
+        description: "FK to Store (0 for non-sales employees)"
+        tests:
+          - not_null
+
+  - name: dim_customer
+    description: >
+      Customer dimension table.
+      **Loads into**: dw.DIM_Customer
+    columns:
+      - name: CustomerID
+        description: "Customer ID (PK)"
+        tests:
+          - unique
+          - not_null
+      - name: CustomerName
+        description: "Customer name"
+
+  - name: dim_category_product
+    description: >
+      Product category dimension table.
+      **Loads into**: dw.DIM_Category_Product
+    columns:
+      - name: CategoryProductID
+        description: "Category ID (PK)"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_subcategory_product
+    description: >
+      Product subcategory dimension table.
+      **Loads into**: dw.DIM_SubCategory_Product
+    columns:
+      - name: SubCategoryProductID
+        description: "Subcategory ID (PK)"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_product
+    description: >
+      Product dimension table.
+      **Loads into**: dw.DIM_Product
+      **Data cleaned**: All NULL columns → 0
+    columns:
+      - name: ProductID
+        description: "Product ID (PK)"
+        tests:
+          - unique
+          - not_null
+      - name: Color
+        description: "Color (NULL → '0')"
+        tests:
+          - not_null
+      - name: Size
+        description: "Size (NULL → '0')"
+        tests:
+          - not_null
+      - name: Style
+        description: "Style (NULL → '0')"
+        tests:
+          - not_null
+
+  - name: fact_sales
+    description: >
+      Sales fact table.
+      **Loads into**: dw.FACT_Sales
+      **Data cleaned**: Status converted from text back to numbers
+    columns:
+      - name: SalesOrderID
+        description: "Sales Order ID (PK)"
+        tests:
+          - unique
+          - not_null
+      - name: ProductID
+        description: "FK to Product"
+        tests:
+          - not_null
+      - name: Status
+        description: "Order status (1-6)"
+        tests:
+          - not_null

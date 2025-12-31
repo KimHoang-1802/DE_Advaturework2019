@@ -1,0 +1,71 @@
+version: 2
+
+models:
+  - name: int_territory_cleaned
+    description: "Cleaned territory data"
+    
+  - name: int_store_cleaned
+    description: "Cleaned store data"
+    
+  - name: int_employee_cleaned
+    description: >
+      **Data Cleaning: NULL StoreID → 0**
+      
+      Transforms NULL StoreID values to 0 for non-sales employees
+    columns:
+      - name: StoreID
+        description: "Store ID - NULL converted to 0"
+        tests:
+          - not_null
+    
+  - name: int_customer_cleaned
+    description: "Cleaned customer data"
+    
+  - name: int_category_cleaned
+    description: "Cleaned category data"
+    
+  - name: int_subcategory_cleaned
+    description: "Cleaned subcategory data"
+    
+  - name: int_product_cleaned
+    description: >
+      **Data Cleaning: ALL NULL columns → 0**
+      
+      Transforms:
+      - NULL Color → '0'
+      - NULL Size → '0'
+      - NULL Style → '0'
+      - NULL SubCatProductID → 0
+      - NULL MakeFlag → 0
+    columns:
+      - name: Color
+        description: "Product color - NULL → '0'"
+        tests:
+          - not_null
+      - name: Size
+        description: "Product size - NULL → '0'"
+        tests:
+          - not_null
+      - name: Style
+        description: "Product style - NULL → '0'"
+        tests:
+          - not_null
+    
+  - name: int_sales_cleaned
+    description: >
+      **Data Cleaning: Status codes → Text**
+      
+      Converts numeric status codes to descriptive text:
+      - 1 → 'In Process'
+      - 2 → 'Approved'
+      - 3 → 'Backordered'
+      - 4 → 'Rejected'
+      - 5 → 'Shipped'
+      - 6 → 'Cancelled'
+    columns:
+      - name: Status
+        description: "Status as text"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['In Process', 'Approved', 'Backordered', 'Rejected', 'Shipped', 'Cancelled']
