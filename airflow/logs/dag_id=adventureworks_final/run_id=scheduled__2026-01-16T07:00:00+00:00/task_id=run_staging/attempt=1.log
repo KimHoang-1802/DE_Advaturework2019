@@ -1,0 +1,44 @@
+[2026-01-17T14:06:10.122+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: adventureworks_final.run_staging scheduled__2026-01-16T07:00:00+00:00 [queued]>
+[2026-01-17T14:06:10.125+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: adventureworks_final.run_staging scheduled__2026-01-16T07:00:00+00:00 [queued]>
+[2026-01-17T14:06:10.125+0700] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-17T14:06:10.130+0700] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): run_staging> on 2026-01-16 07:00:00+00:00
+[2026-01-17T14:06:10.134+0700] {standard_task_runner.py:60} INFO - Started process 53008 to run task
+[2026-01-17T14:06:10.139+0700] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'adventureworks_final', 'run_staging', 'scheduled__2026-01-16T07:00:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/adventureworks_etl_dag.py', '--cfg-path', '/var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T/tmpsmq363pa']
+[2026-01-17T14:06:10.141+0700] {standard_task_runner.py:88} INFO - Job 27: Subtask run_staging
+[2026-01-17T14:06:10.160+0700] {task_command.py:423} INFO - Running <TaskInstance: adventureworks_final.run_staging scheduled__2026-01-16T07:00:00+00:00 [running]> on host macbook-pro-2.fpt
+[2026-01-17T14:06:10.188+0700] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kimhoang' AIRFLOW_CTX_DAG_ID='adventureworks_final' AIRFLOW_CTX_TASK_ID='run_staging' AIRFLOW_CTX_EXECUTION_DATE='2026-01-16T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-16T07:00:00+00:00'
+[2026-01-17T14:06:10.189+0700] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T
+[2026-01-17T14:06:10.189+0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt && dbt run --select staging --profiles-dir /Users/tukimhoang/.dbt']
+[2026-01-17T14:06:10.194+0700] {subprocess.py:86} INFO - Output:
+[2026-01-17T14:06:11.134+0700] {subprocess.py:93} INFO - [0m07:06:11  Running with dbt=1.11.2
+[2026-01-17T14:06:11.443+0700] {subprocess.py:93} INFO - [0m07:06:11  Registered adapter: sqlserver=1.9.0
+[2026-01-17T14:06:11.775+0700] {subprocess.py:93} INFO - [0m07:06:11  Found 25 models, 28 data tests, 8 sources, 538 macros
+[2026-01-17T14:06:11.776+0700] {subprocess.py:93} INFO - [0m07:06:11
+[2026-01-17T14:06:11.776+0700] {subprocess.py:93} INFO - [0m07:06:11  Concurrency: 1 threads (target='dev')
+[2026-01-17T14:06:11.777+0700] {subprocess.py:93} INFO - [0m07:06:11
+[2026-01-17T14:06:11.937+0700] {subprocess.py:93} INFO - [0m07:06:11  1 of 8 START sql view model stagging_stagging.stg_dim_cat_product .............. [RUN]
+[2026-01-17T14:06:12.022+0700] {subprocess.py:93} INFO - [0m07:06:12  1 of 8 OK created sql view model stagging_stagging.stg_dim_cat_product ......... [[32mOK[0m in 0.08s]
+[2026-01-17T14:06:12.023+0700] {subprocess.py:93} INFO - [0m07:06:12  2 of 8 START sql view model stagging_stagging.stg_dim_customer ................. [RUN]
+[2026-01-17T14:06:12.069+0700] {subprocess.py:93} INFO - [0m07:06:12  2 of 8 OK created sql view model stagging_stagging.stg_dim_customer ............ [[32mOK[0m in 0.05s]
+[2026-01-17T14:06:12.071+0700] {subprocess.py:93} INFO - [0m07:06:12  3 of 8 START sql view model stagging_stagging.stg_dim_employee ................. [RUN]
+[2026-01-17T14:06:12.130+0700] {subprocess.py:93} INFO - [0m07:06:12  3 of 8 OK created sql view model stagging_stagging.stg_dim_employee ............ [[32mOK[0m in 0.06s]
+[2026-01-17T14:06:12.132+0700] {subprocess.py:93} INFO - [0m07:06:12  4 of 8 START sql view model stagging_stagging.stg_dim_product .................. [RUN]
+[2026-01-17T14:06:12.191+0700] {subprocess.py:93} INFO - [0m07:06:12  4 of 8 OK created sql view model stagging_stagging.stg_dim_product ............. [[32mOK[0m in 0.06s]
+[2026-01-17T14:06:12.192+0700] {subprocess.py:93} INFO - [0m07:06:12  5 of 8 START sql view model stagging_stagging.stg_dim_store .................... [RUN]
+[2026-01-17T14:06:12.325+0700] {subprocess.py:93} INFO - [0m07:06:12  5 of 8 OK created sql view model stagging_stagging.stg_dim_store ............... [[32mOK[0m in 0.13s]
+[2026-01-17T14:06:12.326+0700] {subprocess.py:93} INFO - [0m07:06:12  6 of 8 START sql view model stagging_stagging.stg_dim_sub_category_product ..... [RUN]
+[2026-01-17T14:06:12.384+0700] {subprocess.py:93} INFO - [0m07:06:12  6 of 8 OK created sql view model stagging_stagging.stg_dim_sub_category_product  [[32mOK[0m in 0.06s]
+[2026-01-17T14:06:12.385+0700] {subprocess.py:93} INFO - [0m07:06:12  7 of 8 START sql view model stagging_stagging.stg_dim_territory ................ [RUN]
+[2026-01-17T14:06:12.443+0700] {subprocess.py:93} INFO - [0m07:06:12  7 of 8 OK created sql view model stagging_stagging.stg_dim_territory ........... [[32mOK[0m in 0.06s]
+[2026-01-17T14:06:12.444+0700] {subprocess.py:93} INFO - [0m07:06:12  8 of 8 START sql view model stagging_stagging.stg_fact_sales ................... [RUN]
+[2026-01-17T14:06:12.489+0700] {subprocess.py:93} INFO - [0m07:06:12  8 of 8 OK created sql view model stagging_stagging.stg_fact_sales .............. [[32mOK[0m in 0.04s]
+[2026-01-17T14:06:12.491+0700] {subprocess.py:93} INFO - [0m07:06:12
+[2026-01-17T14:06:12.492+0700] {subprocess.py:93} INFO - [0m07:06:12  Finished running 8 view models in 0 hours 0 minutes and 0.71 seconds (0.71s).
+[2026-01-17T14:06:12.525+0700] {subprocess.py:93} INFO - [0m07:06:12
+[2026-01-17T14:06:12.526+0700] {subprocess.py:93} INFO - [0m07:06:12  [32mCompleted successfully[0m
+[2026-01-17T14:06:12.526+0700] {subprocess.py:93} INFO - [0m07:06:12
+[2026-01-17T14:06:12.526+0700] {subprocess.py:93} INFO - [0m07:06:12  Done. PASS=8 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=8
+[2026-01-17T14:06:14.836+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-17T14:06:14.847+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=adventureworks_final, task_id=run_staging, execution_date=20260116T070000, start_date=20260117T070610, end_date=20260117T070614
+[2026-01-17T14:06:14.863+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-17T14:06:14.875+0700] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

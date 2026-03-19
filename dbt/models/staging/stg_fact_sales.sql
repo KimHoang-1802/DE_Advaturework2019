@@ -14,7 +14,8 @@ SELECT
     TerritoryID,
     StoreID,
     TotalDue
-FROM {{ source('stagging', 'Stg_Fact_Sales') }}
+    FROM {{ source('stagging', 'Stg_Fact_Sales') }}
+
 WHERE SaleOrderID IS NOT NULL
   AND ProductID IS NOT NULL
   AND OrderDate IS NOT NULL

@@ -23,7 +23,8 @@ SELECT
     TerritoryID,
     StoreID,
     TotalDue
-FROM "AdventureWorks2019"."stagging"."Stg_Fact_Sales"
+    FROM "AdventureWorks2019"."stagging"."Stg_Fact_Sales"
+
 WHERE SaleOrderID IS NOT NULL
   AND ProductID IS NOT NULL
   AND OrderDate IS NOT NULL;

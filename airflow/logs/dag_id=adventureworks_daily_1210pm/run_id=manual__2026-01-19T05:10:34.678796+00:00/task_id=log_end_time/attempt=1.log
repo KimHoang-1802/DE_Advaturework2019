@@ -1,0 +1,22 @@
+[2026-01-19T12:11:30.817+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: adventureworks_daily_1210pm.log_end_time manual__2026-01-19T05:10:34.678796+00:00 [queued]>
+[2026-01-19T12:11:30.820+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: adventureworks_daily_1210pm.log_end_time manual__2026-01-19T05:10:34.678796+00:00 [queued]>
+[2026-01-19T12:11:30.820+0700] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2026-01-19T12:11:30.826+0700] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): log_end_time> on 2026-01-19 05:10:34.678796+00:00
+[2026-01-19T12:11:30.829+0700] {standard_task_runner.py:60} INFO - Started process 74976 to run task
+[2026-01-19T12:11:30.834+0700] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'adventureworks_daily_1210pm', 'log_end_time', 'manual__2026-01-19T05:10:34.678796+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/adventureworks_etl_dag.py', '--cfg-path', '/var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T/tmpalyna1lb']
+[2026-01-19T12:11:30.835+0700] {standard_task_runner.py:88} INFO - Job 47: Subtask log_end_time
+[2026-01-19T12:11:30.855+0700] {task_command.py:423} INFO - Running <TaskInstance: adventureworks_daily_1210pm.log_end_time manual__2026-01-19T05:10:34.678796+00:00 [running]> on host macbook-pro-2.fpt
+[2026-01-19T12:11:30.881+0700] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kimhoang' AIRFLOW_CTX_DAG_ID='adventureworks_daily_1210pm' AIRFLOW_CTX_TASK_ID='log_end_time' AIRFLOW_CTX_EXECUTION_DATE='2026-01-19T05:10:34.678796+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-19T05:10:34.678796+00:00'
+[2026-01-19T12:11:30.882+0700] {logging_mixin.py:188} INFO - ============================================================
+[2026-01-19T12:11:30.882+0700] {logging_mixin.py:188} INFO - ✅ ADVENTUREWORKS ETL PIPELINE COMPLETED
+[2026-01-19T12:11:30.882+0700] {logging_mixin.py:188} INFO - ============================================================
+[2026-01-19T12:11:30.885+0700] {logging_mixin.py:188} WARNING - /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt-env/lib/python3.10/site-packages/airflow/utils/context.py:315 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2026-01-19T12:11:30.885+0700] {logging_mixin.py:188} INFO - 📅 Execution Date: 2026-01-19T05:10:34.678796+00:00
+[2026-01-19T12:11:30.885+0700] {logging_mixin.py:188} INFO - 🕐 Finished Time (VN): 2026-01-19 12:11:30.885966+07:00
+[2026-01-19T12:11:30.886+0700] {logging_mixin.py:188} INFO - 📊 All data loaded successfully!
+[2026-01-19T12:11:30.886+0700] {logging_mixin.py:188} INFO - 🔍 Check DBeaver for updated LoadDate/UpdateDate
+[2026-01-19T12:11:30.886+0700] {logging_mixin.py:188} INFO - ============================================================
+[2026-01-19T12:11:30.886+0700] {python.py:201} INFO - Done. Returned value was: None
+[2026-01-19T12:11:30.889+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=adventureworks_daily_1210pm, task_id=log_end_time, execution_date=20260119T051034, start_date=20260119T051130, end_date=20260119T051130
+[2026-01-19T12:11:30.928+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-19T12:11:30.936+0700] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

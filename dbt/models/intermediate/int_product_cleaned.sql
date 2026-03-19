@@ -1,4 +1,7 @@
-{{ config(materialized='ephemeral', tags=['intermediate']) }}
+{{ config(
+    materialized='table',
+    schema='intermediate'
+) }}
 
 SELECT
     ProductID,

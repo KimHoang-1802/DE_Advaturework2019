@@ -1,0 +1,651 @@
+[2026-01-19T12:04:42.254+0700] {processor.py:161} INFO - Started process (PID=70919) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:04:42.255+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:04:42.255+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:04:42.255+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:04:42.268+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:04:42.268+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:04:42.268+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:04:42.269+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:04:42.268+0700] {dagbag.py:348} ERROR - Failed to import: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py", line 80, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'timezone'
+[2026-01-19T12:04:42.269+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:04:42.317+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.064 seconds
+[2026-01-19T12:05:13.768+0700] {processor.py:161} INFO - Started process (PID=71192) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:05:13.769+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:05:13.770+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:05:13.770+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:05:13.782+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:05:13.782+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:05:13.782+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:05:13.783+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:05:13.782+0700] {dagbag.py:348} ERROR - Failed to import: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py", line 80, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'timezone'
+[2026-01-19T12:05:13.783+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:05:13.824+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.056 seconds
+[2026-01-19T12:05:45.219+0700] {processor.py:161} INFO - Started process (PID=71391) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:05:45.220+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:05:45.220+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:05:45.220+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:05:45.233+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:05:45.233+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:05:45.233+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:05:45.234+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:05:45.233+0700] {dagbag.py:348} ERROR - Failed to import: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py", line 80, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'timezone'
+[2026-01-19T12:05:45.234+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:05:45.276+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.058 seconds
+[2026-01-19T12:05:58.101+0700] {processor.py:161} INFO - Started process (PID=71515) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:05:58.103+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:05:58.103+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:05:58.103+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:05:58.118+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:05:58.119+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:05:58.119+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:05:58.125+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:05:58.228+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:05:58.228+0700] {override.py:1769} INFO - Created Permission View: can read on DAG:adventureworks_daily_1210pm
+[2026-01-19T12:05:58.232+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:05:58.232+0700] {override.py:1769} INFO - Created Permission View: can edit on DAG:adventureworks_daily_1210pm
+[2026-01-19T12:05:58.235+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:05:58.234+0700] {override.py:1769} INFO - Created Permission View: can delete on DAG:adventureworks_daily_1210pm
+[2026-01-19T12:05:58.235+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:05:58.235+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:05:58.241+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:05:58.241+0700] {dag.py:3055} INFO - Creating ORM DAG for adventureworks_daily_1210pm
+[2026-01-19T12:05:58.245+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:05:58.245+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:05:58.256+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.156 seconds
+[2026-01-19T12:06:26.873+0700] {processor.py:161} INFO - Started process (PID=71998) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:06:26.876+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:06:26.876+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:06:26.876+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:06:26.885+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:06:26.885+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:06:26.885+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:06:26.892+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:06:26.898+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:06:26.898+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:06:26.942+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:06:26.942+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:06:26.953+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.081 seconds
+[2026-01-19T12:06:58.300+0700] {processor.py:161} INFO - Started process (PID=72242) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:06:58.301+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:06:58.301+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:06:58.301+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:06:58.312+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:06:58.312+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:06:58.313+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:06:58.318+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:06:58.366+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:06:58.366+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:06:58.374+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:06:58.374+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:06:58.382+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.082 seconds
+[2026-01-19T12:07:29.358+0700] {processor.py:161} INFO - Started process (PID=72457) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:07:29.358+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:07:29.358+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:07:29.358+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:07:29.368+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:07:29.368+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:07:29.368+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:07:29.372+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:07:29.417+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:07:29.417+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:07:29.425+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:07:29.425+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:07:29.434+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.077 seconds
+[2026-01-19T12:08:00.627+0700] {processor.py:161} INFO - Started process (PID=72666) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:08:00.628+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:08:00.628+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:08:00.628+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:08:00.637+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:08:00.637+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:08:00.637+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:08:00.642+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:08:00.688+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:08:00.687+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:08:00.695+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:08:00.695+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:08:00.704+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.077 seconds
+[2026-01-19T12:08:32.112+0700] {processor.py:161} INFO - Started process (PID=72877) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:08:32.112+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:08:32.113+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:08:32.113+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:08:32.125+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:08:32.125+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:08:32.125+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:08:32.130+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:08:32.180+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:08:32.180+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:08:32.188+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:08:32.188+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:08:32.196+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.085 seconds
+[2026-01-19T12:10:06.118+0700] {processor.py:161} INFO - Started process (PID=74323) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:10:06.119+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:10:06.119+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:10:06.119+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:10:06.128+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:10:06.128+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:10:06.128+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:10:06.133+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:10:06.179+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:10:06.179+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:10:06.187+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:10:06.187+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:10:06.195+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.078 seconds
+[2026-01-19T12:10:37.921+0700] {processor.py:161} INFO - Started process (PID=74546) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:10:37.922+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:10:37.922+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:10:37.922+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:10:37.932+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:10:37.932+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:10:37.932+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:10:37.937+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:10:37.988+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:10:37.988+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:10:38.004+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.084 seconds
+[2026-01-19T12:11:11.579+0700] {processor.py:161} INFO - Started process (PID=74824) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:11:11.580+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:11:11.581+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:11:11.581+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:11:11.591+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:11:11.591+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:11:11.591+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:11:11.597+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:11:11.649+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:11:11.649+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:11:11.665+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.087 seconds
+[2026-01-19T12:11:43.722+0700] {processor.py:161} INFO - Started process (PID=75057) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:11:43.723+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:11:43.723+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:11:43.723+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:11:43.732+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:11:43.732+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:11:43.732+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:11:43.736+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:11:43.784+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:11:43.784+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:11:43.792+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:11:43.792+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:11:43.800+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.078 seconds
+[2026-01-19T12:12:14.897+0700] {processor.py:161} INFO - Started process (PID=75266) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:12:14.897+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:12:14.898+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:12:14.897+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:12:14.906+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:12:14.906+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:12:14.906+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:12:14.911+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:12:14.956+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:12:14.956+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:12:14.964+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:12:14.963+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:12:14.972+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.075 seconds
+[2026-01-19T12:12:45.984+0700] {processor.py:161} INFO - Started process (PID=75461) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:12:45.984+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:12:45.984+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:12:45.984+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:12:45.994+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:12:45.994+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:12:45.994+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:12:45.998+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:12:46.045+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:12:46.045+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:12:46.053+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:12:46.053+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:12:46.061+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.078 seconds
+[2026-01-19T12:13:17.076+0700] {processor.py:161} INFO - Started process (PID=75655) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:13:17.076+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:13:17.076+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:13:17.076+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:13:17.085+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:13:17.085+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:13:17.085+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:13:17.089+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:13:17.134+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:13:17.134+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:13:17.142+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:13:17.142+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:13:17.150+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.074 seconds
+[2026-01-19T12:13:48.146+0700] {processor.py:161} INFO - Started process (PID=75874) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:13:48.146+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:13:48.146+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:13:48.146+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:13:48.156+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:13:48.156+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:13:48.156+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:13:48.160+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:13:48.206+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:13:48.206+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:13:48.214+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:13:48.214+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:13:48.223+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.078 seconds
+[2026-01-19T12:14:19.230+0700] {processor.py:161} INFO - Started process (PID=76076) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:14:19.230+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:14:19.231+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:14:19.230+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:14:19.240+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:14:19.240+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:14:19.240+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:14:19.244+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:14:19.290+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:14:19.290+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:14:19.298+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:14:19.298+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:14:19.306+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.077 seconds
+[2026-01-19T12:14:50.330+0700] {processor.py:161} INFO - Started process (PID=76278) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:14:50.331+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:14:50.331+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:14:50.331+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:14:50.340+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:14:50.340+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:14:50.340+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:14:50.345+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:14:50.391+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:14:50.391+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:14:50.399+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:14:50.399+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:14:50.407+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.077 seconds
+[2026-01-19T12:15:21.397+0700] {processor.py:161} INFO - Started process (PID=76510) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:15:21.398+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:15:21.398+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:15:21.398+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:15:21.407+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:15:21.407+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:15:21.407+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:15:21.411+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:15:21.457+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:15:21.457+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:15:21.464+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:15:21.464+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:15:21.473+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.076 seconds
+[2026-01-19T12:15:52.476+0700] {processor.py:161} INFO - Started process (PID=76721) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:15:52.476+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:15:52.477+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:15:52.477+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:15:52.486+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:15:52.486+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:15:52.486+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:15:52.491+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:15:52.536+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:15:52.536+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:15:52.544+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:15:52.544+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:15:52.552+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.076 seconds
+[2026-01-19T12:16:23.553+0700] {processor.py:161} INFO - Started process (PID=76917) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:16:23.553+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:16:23.554+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:16:23.553+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:16:23.563+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:16:23.563+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:16:23.563+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:16:23.567+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:16:23.613+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:16:23.612+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:16:23.620+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:16:23.620+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:16:23.629+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.076 seconds
+[2026-01-19T12:16:54.647+0700] {processor.py:161} INFO - Started process (PID=77165) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:16:54.648+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:16:54.648+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:16:54.648+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:16:54.656+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:16:54.657+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:16:54.657+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:16:54.661+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:16:54.706+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:16:54.705+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:16:54.713+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:16:54.713+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:16:54.721+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.075 seconds
+[2026-01-19T12:17:25.736+0700] {processor.py:161} INFO - Started process (PID=77373) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:17:25.736+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:17:25.737+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:17:25.737+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:17:25.746+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:17:25.746+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:17:25.746+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:17:25.750+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:17:25.796+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:17:25.796+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:17:25.804+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:17:25.804+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:17:25.812+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.077 seconds
+[2026-01-19T12:17:56.839+0700] {processor.py:161} INFO - Started process (PID=77568) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:17:56.839+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:17:56.840+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:17:56.840+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:17:56.848+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:17:56.848+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:17:56.849+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:17:56.853+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:17:56.898+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:17:56.898+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:17:56.906+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:17:56.906+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:17:56.914+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.076 seconds
+[2026-01-19T12:18:27.922+0700] {processor.py:161} INFO - Started process (PID=77772) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:18:27.923+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:18:27.923+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:18:27.923+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:18:27.932+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:18:27.932+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:18:27.932+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:18:27.937+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:18:27.982+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:18:27.982+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:18:27.990+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:18:27.990+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:18:27.999+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.077 seconds
+[2026-01-19T12:18:59.230+0700] {processor.py:161} INFO - Started process (PID=77995) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:18:59.231+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:18:59.232+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:18:59.231+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:18:59.243+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:18:59.243+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:18:59.243+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:18:59.249+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:18:59.298+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:18:59.298+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:18:59.306+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:18:59.306+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:18:59.314+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.084 seconds
+[2026-01-19T12:19:30.541+0700] {processor.py:161} INFO - Started process (PID=78195) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:19:30.542+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:19:30.542+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:19:30.542+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:19:30.554+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:19:30.554+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:19:30.554+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:19:30.560+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:19:30.613+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:19:30.613+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:19:30.623+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:19:30.623+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:19:30.634+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.094 seconds
+[2026-01-19T12:20:01.667+0700] {processor.py:161} INFO - Started process (PID=78401) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:20:01.668+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:20:01.668+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:20:01.668+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:20:01.677+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:20:01.677+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:20:01.677+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:20:01.682+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:20:01.728+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:20:01.727+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:20:01.735+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:20:01.735+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:20:01.744+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.077 seconds
+[2026-01-19T12:20:32.779+0700] {processor.py:161} INFO - Started process (PID=78597) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:20:32.779+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:20:32.780+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:20:32.780+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:20:32.789+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:20:32.789+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:20:32.789+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:20:32.794+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:20:32.840+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:20:32.839+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:20:32.849+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:20:32.849+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:20:32.857+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.079 seconds
+[2026-01-19T12:21:03.885+0700] {processor.py:161} INFO - Started process (PID=78791) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:21:03.885+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:21:03.886+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:21:03.886+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:21:03.895+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:21:03.895+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:21:03.895+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:21:03.899+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:21:03.945+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:21:03.945+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:21:03.952+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:21:03.952+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:21:03.960+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.076 seconds
+[2026-01-19T12:21:35.143+0700] {processor.py:161} INFO - Started process (PID=79009) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:21:35.143+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:21:35.144+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:21:35.144+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:21:35.155+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:21:35.155+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:21:35.155+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:21:35.160+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:21:35.206+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:21:35.206+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:21:35.214+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:21:35.214+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:21:35.222+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.080 seconds
+[2026-01-19T12:22:06.470+0700] {processor.py:161} INFO - Started process (PID=79205) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:22:06.471+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:22:06.471+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:22:06.471+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:22:06.482+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:22:06.483+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:22:06.483+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:22:06.488+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:22:06.537+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:22:06.536+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:22:06.545+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:22:06.544+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:22:06.552+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.083 seconds
+[2026-01-19T12:22:37.934+0700] {processor.py:161} INFO - Started process (PID=79406) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:22:37.935+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:22:37.935+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:22:37.935+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:22:37.948+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:22:37.948+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:22:37.949+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:22:37.956+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:22:38.009+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:22:38.008+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:22:38.018+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:22:38.018+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:22:38.027+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.093 seconds
+[2026-01-19T12:23:09.388+0700] {processor.py:161} INFO - Started process (PID=79617) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:23:09.389+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:23:09.389+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:23:09.389+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:23:09.401+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:23:09.401+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:23:09.401+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:23:09.407+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:23:09.458+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:23:09.458+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:23:09.466+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:23:09.466+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:23:09.474+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.086 seconds
+[2026-01-19T12:23:40.771+0700] {processor.py:161} INFO - Started process (PID=79831) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:23:40.772+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:23:40.772+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:23:40.772+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:23:40.784+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:23:40.784+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:23:40.784+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:23:40.789+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:23:40.838+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:23:40.838+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:23:40.846+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:23:40.846+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:23:40.854+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.084 seconds
+[2026-01-19T12:24:12.126+0700] {processor.py:161} INFO - Started process (PID=80042) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:24:12.127+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:24:12.128+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:24:12.127+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:24:12.139+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:24:12.139+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:24:12.139+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:24:12.144+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:24:12.193+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:24:12.193+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:24:12.201+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:24:12.201+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:24:12.209+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.084 seconds
+[2026-01-19T12:24:43.334+0700] {processor.py:161} INFO - Started process (PID=80253) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:24:43.335+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:24:43.335+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:24:43.335+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:24:43.347+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:24:43.347+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:24:43.347+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:24:43.352+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:24:43.401+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:24:43.401+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:24:43.409+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:24:43.409+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:24:43.417+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.084 seconds
+[2026-01-19T12:25:14.446+0700] {processor.py:161} INFO - Started process (PID=80466) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:25:14.447+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:25:14.447+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:25:14.447+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:25:14.459+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:25:14.459+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:25:14.459+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:25:14.465+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:25:14.514+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:25:14.513+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:25:14.521+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:25:14.521+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:25:14.530+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.084 seconds
+[2026-01-19T12:25:45.879+0700] {processor.py:161} INFO - Started process (PID=80663) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:25:45.879+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:25:45.880+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:25:45.880+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:25:45.892+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:25:45.892+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:25:45.892+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:25:45.897+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:25:45.948+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:25:45.948+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:25:45.956+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:25:45.956+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:25:45.964+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.086 seconds
+[2026-01-19T12:26:17.049+0700] {processor.py:161} INFO - Started process (PID=80857) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:26:17.050+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:26:17.050+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:26:17.050+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:26:17.059+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:26:17.059+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:26:17.059+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:26:17.064+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:26:17.109+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:26:17.109+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:26:17.117+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:26:17.117+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:26:17.126+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.077 seconds
+[2026-01-19T12:27:00.456+0700] {processor.py:161} INFO - Started process (PID=81281) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:27:00.457+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:27:00.458+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:27:00.458+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:27:00.468+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:27:00.468+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:27:00.468+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:27:00.474+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:27:00.523+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:27:00.523+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:27:00.532+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:27:00.532+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:27:00.541+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.085 seconds
+[2026-01-19T12:27:35.369+0700] {processor.py:161} INFO - Started process (PID=81540) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:27:35.371+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:27:35.371+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:27:35.371+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:27:35.381+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:27:35.381+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:27:35.381+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:27:35.387+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:27:35.440+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:27:35.440+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:27:35.458+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.089 seconds
+[2026-01-19T12:28:10.397+0700] {processor.py:161} INFO - Started process (PID=81821) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:28:10.397+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:28:10.398+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:28:10.398+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:28:10.408+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:28:10.408+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:28:10.408+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:28:10.413+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:28:10.464+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:28:10.464+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:28:10.481+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.085 seconds
+[2026-01-19T12:28:42.564+0700] {processor.py:161} INFO - Started process (PID=82036) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:28:42.564+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:28:42.565+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:28:42.564+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:28:42.574+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:28:42.574+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:28:42.574+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:28:42.579+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:28:42.625+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:28:42.625+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:28:42.633+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:28:42.633+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:28:42.641+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.078 seconds
+[2026-01-19T12:29:14.078+0700] {processor.py:161} INFO - Started process (PID=82276) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:29:14.079+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:29:14.079+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:29:14.079+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:29:14.092+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:29:14.092+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:29:14.092+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:29:14.098+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:29:14.147+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:29:14.147+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:29:14.155+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:29:14.155+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:29:14.164+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.086 seconds
+[2026-01-19T12:29:45.957+0700] {processor.py:161} INFO - Started process (PID=82479) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:29:45.957+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:29:45.957+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:29:45.957+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:29:45.966+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:29:45.967+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:29:45.967+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:29:45.971+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:29:46.018+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:29:46.018+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:29:46.026+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:29:46.026+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:29:46.034+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.078 seconds
+[2026-01-19T12:30:17.250+0700] {processor.py:161} INFO - Started process (PID=82687) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:30:17.251+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:30:17.251+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:30:17.251+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:30:17.259+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:30:17.259+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:30:17.259+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:30:17.264+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:30:17.309+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:30:17.309+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:30:17.318+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:30:17.318+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:30:17.326+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.076 seconds
+[2026-01-19T12:30:48.708+0700] {processor.py:161} INFO - Started process (PID=82882) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:30:48.709+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:30:48.709+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:30:48.709+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:30:48.721+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:30:48.721+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:30:48.721+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:30:48.726+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:30:48.776+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:30:48.776+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:30:48.785+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:30:48.784+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:30:48.793+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.085 seconds
+[2026-01-19T12:31:20.245+0700] {processor.py:161} INFO - Started process (PID=83096) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:31:20.246+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:31:20.246+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:31:20.246+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:31:20.258+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:31:20.258+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:31:20.258+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:31:20.264+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:31:20.313+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:31:20.313+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:31:20.321+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:31:20.321+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:31:20.329+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.084 seconds
+[2026-01-19T12:31:51.461+0700] {processor.py:161} INFO - Started process (PID=83290) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:31:51.462+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:31:51.462+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:31:51.462+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:31:51.472+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:31:51.472+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:31:51.472+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:31:51.476+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:31:51.524+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:31:51.524+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:31:51.532+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:31:51.532+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:31:51.543+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.082 seconds
+[2026-01-19T12:32:22.620+0700] {processor.py:161} INFO - Started process (PID=83501) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:32:22.621+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:32:22.621+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:32:22.621+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:32:22.630+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:32:22.630+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:32:22.630+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:32:22.634+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:32:22.678+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:32:22.678+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:32:22.687+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:32:22.687+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:32:22.695+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.075 seconds
+[2026-01-19T12:32:54.069+0700] {processor.py:161} INFO - Started process (PID=83702) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:32:54.069+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:32:54.070+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:32:54.070+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:32:54.082+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:32:54.082+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:32:54.082+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:32:54.087+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:32:54.136+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:32:54.136+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:32:54.145+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:32:54.145+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:32:54.153+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.085 seconds
+[2026-01-19T12:33:25.504+0700] {processor.py:161} INFO - Started process (PID=83902) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:33:25.505+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:33:25.505+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:33:25.505+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:33:25.518+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:33:25.518+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:33:25.518+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:33:25.524+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:33:25.576+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:33:25.576+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:33:25.584+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:33:25.584+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:33:25.593+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.090 seconds
+[2026-01-19T12:33:56.917+0700] {processor.py:161} INFO - Started process (PID=84112) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:33:56.918+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:33:56.919+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:33:56.919+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:33:56.937+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:33:56.937+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:33:56.937+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:33:56.944+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:33:57.001+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:33:57.001+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:33:57.011+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:33:57.011+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:33:57.023+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.107 seconds
+[2026-01-19T12:34:28.371+0700] {processor.py:161} INFO - Started process (PID=84321) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:34:28.372+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:34:28.372+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:34:28.372+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:34:28.383+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:34:28.383+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:34:28.383+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:34:28.389+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:34:28.438+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:34:28.438+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:34:28.447+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:34:28.447+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:34:28.457+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.087 seconds
+[2026-01-19T12:34:59.763+0700] {processor.py:161} INFO - Started process (PID=84527) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:34:59.763+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:34:59.764+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:34:59.764+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:34:59.775+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:34:59.775+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:34:59.775+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:34:59.781+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:34:59.830+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:34:59.830+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:34:59.838+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:34:59.838+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:34:59.846+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.084 seconds
+[2026-01-19T12:35:31.255+0700] {processor.py:161} INFO - Started process (PID=84733) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:35:31.256+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:35:31.256+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:35:31.256+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:35:31.268+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:35:31.268+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:35:31.268+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:35:31.274+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:35:31.324+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:35:31.324+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:35:31.332+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:35:31.332+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:35:31.339+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.085 seconds
+[2026-01-19T12:36:02.462+0700] {processor.py:161} INFO - Started process (PID=84940) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:36:02.463+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:36:02.463+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:36:02.463+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:36:02.472+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:36:02.472+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:36:02.472+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:36:02.477+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:36:02.522+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:36:02.522+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:36:02.531+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:36:02.531+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:36:02.540+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.078 seconds
+[2026-01-19T12:36:33.644+0700] {processor.py:161} INFO - Started process (PID=85135) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:36:33.645+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:36:33.645+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:36:33.645+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:36:33.656+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:36:33.656+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:36:33.656+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:36:33.661+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:36:33.711+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:36:33.711+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:36:33.721+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:36:33.721+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:36:33.730+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.086 seconds
+[2026-01-19T12:37:05.122+0700] {processor.py:161} INFO - Started process (PID=85332) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:37:05.122+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:37:05.123+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:37:05.123+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:37:05.134+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:37:05.135+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:37:05.135+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:37:05.140+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:37:05.189+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:37:05.189+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:37:05.198+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:37:05.198+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:37:05.205+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.084 seconds
+[2026-01-19T12:37:36.314+0700] {processor.py:161} INFO - Started process (PID=85547) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:37:36.314+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:37:36.315+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:37:36.314+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:37:36.327+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:37:36.327+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:37:36.327+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:37:36.333+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:37:36.393+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:37:36.392+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:37:36.402+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:37:36.402+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:37:36.412+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.100 seconds
+[2026-01-19T12:38:07.742+0700] {processor.py:161} INFO - Started process (PID=85752) to work on /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:38:07.743+0700] {processor.py:830} INFO - Processing file /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py for tasks to queue
+[2026-01-19T12:38:07.743+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:38:07.743+0700] {dagbag.py:538} INFO - Filling up the DagBag from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:38:07.755+0700] {logging_mixin.py:188} INFO - 📂 DBT Project: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt
+[2026-01-19T12:38:07.755+0700] {logging_mixin.py:188} INFO - 📂 DBT Profiles: /Users/tukimhoang/.dbt
+[2026-01-19T12:38:07.755+0700] {logging_mixin.py:188} INFO - 🕐 Timezone: Timezone('Asia/Ho_Chi_Minh')
+[2026-01-19T12:38:07.761+0700] {processor.py:840} INFO - DAG(s) 'adventureworks_daily_1210pm' retrieved from /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py
+[2026-01-19T12:38:07.809+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:38:07.809+0700] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-01-19T12:38:07.817+0700] {logging_mixin.py:188} INFO - [2026-01-19T12:38:07.817+0700] {dag.py:3820} INFO - Setting next_dagrun for adventureworks_daily_1210pm to 2026-01-19T05:10:00+00:00, run_after=2026-01-20T05:10:00+00:00
+[2026-01-19T12:38:07.825+0700] {processor.py:183} INFO - Processing /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py took 0.083 seconds

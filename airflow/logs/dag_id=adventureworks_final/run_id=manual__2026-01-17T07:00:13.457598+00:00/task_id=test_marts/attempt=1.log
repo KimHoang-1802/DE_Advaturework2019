@@ -1,0 +1,68 @@
+[2026-01-17T14:04:13.690+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: adventureworks_final.test_marts manual__2026-01-17T07:00:13.457598+00:00 [queued]>
+[2026-01-17T14:04:13.694+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: adventureworks_final.test_marts manual__2026-01-17T07:00:13.457598+00:00 [queued]>
+[2026-01-17T14:04:13.694+0700] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-17T14:04:13.701+0700] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): test_marts> on 2026-01-17 07:00:13.457598+00:00
+[2026-01-17T14:04:13.705+0700] {standard_task_runner.py:60} INFO - Started process 52166 to run task
+[2026-01-17T14:04:13.710+0700] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'adventureworks_final', 'test_marts', 'manual__2026-01-17T07:00:13.457598+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/adventureworks_etl_dag.py', '--cfg-path', '/var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T/tmpaoc1xzgt']
+[2026-01-17T14:04:13.712+0700] {standard_task_runner.py:88} INFO - Job 22: Subtask test_marts
+[2026-01-17T14:04:13.733+0700] {task_command.py:423} INFO - Running <TaskInstance: adventureworks_final.test_marts manual__2026-01-17T07:00:13.457598+00:00 [running]> on host macbook-pro-2.fpt
+[2026-01-17T14:04:13.759+0700] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kimhoang' AIRFLOW_CTX_DAG_ID='adventureworks_final' AIRFLOW_CTX_TASK_ID='test_marts' AIRFLOW_CTX_EXECUTION_DATE='2026-01-17T07:00:13.457598+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-17T07:00:13.457598+00:00'
+[2026-01-17T14:04:13.760+0700] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T
+[2026-01-17T14:04:13.760+0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt && dbt test --select marts --exclude unique_dim_employee_EmployeeID unique_fact_sales_SalesOrderID --profiles-dir /Users/tukimhoang/.dbt']
+[2026-01-17T14:04:13.765+0700] {subprocess.py:86} INFO - Output:
+[2026-01-17T14:04:14.714+0700] {subprocess.py:93} INFO - [0m07:04:14  Running with dbt=1.11.2
+[2026-01-17T14:04:14.995+0700] {subprocess.py:93} INFO - [0m07:04:14  Registered adapter: sqlserver=1.9.0
+[2026-01-17T14:04:15.317+0700] {subprocess.py:93} INFO - [0m07:04:15  Found 25 models, 28 data tests, 8 sources, 538 macros
+[2026-01-17T14:04:15.320+0700] {subprocess.py:93} INFO - [0m07:04:15
+[2026-01-17T14:04:15.321+0700] {subprocess.py:93} INFO - [0m07:04:15  Concurrency: 1 threads (target='dev')
+[2026-01-17T14:04:15.321+0700] {subprocess.py:93} INFO - [0m07:04:15
+[2026-01-17T14:04:15.437+0700] {subprocess.py:93} INFO - [0m07:04:15  1 of 20 START test not_null_dim_category_product_CategoryProductID ............. [RUN]
+[2026-01-17T14:04:15.488+0700] {subprocess.py:93} INFO - [0m07:04:15  1 of 20 PASS not_null_dim_category_product_CategoryProductID ................... [[32mPASS[0m in 0.05s]
+[2026-01-17T14:04:15.489+0700] {subprocess.py:93} INFO - [0m07:04:15  2 of 20 START test not_null_dim_customer_CustomerID ............................ [RUN]
+[2026-01-17T14:04:15.516+0700] {subprocess.py:93} INFO - [0m07:04:15  2 of 20 PASS not_null_dim_customer_CustomerID .................................. [[32mPASS[0m in 0.03s]
+[2026-01-17T14:04:15.517+0700] {subprocess.py:93} INFO - [0m07:04:15  3 of 20 START test not_null_dim_employee_EmployeeID ............................ [RUN]
+[2026-01-17T14:04:15.543+0700] {subprocess.py:93} INFO - [0m07:04:15  3 of 20 PASS not_null_dim_employee_EmployeeID .................................. [[32mPASS[0m in 0.03s]
+[2026-01-17T14:04:15.544+0700] {subprocess.py:93} INFO - [0m07:04:15  4 of 20 START test not_null_dim_employee_StoreID ............................... [RUN]
+[2026-01-17T14:04:15.569+0700] {subprocess.py:93} INFO - [0m07:04:15  4 of 20 PASS not_null_dim_employee_StoreID ..................................... [[32mPASS[0m in 0.03s]
+[2026-01-17T14:04:15.570+0700] {subprocess.py:93} INFO - [0m07:04:15  5 of 20 START test not_null_dim_product_Color .................................. [RUN]
+[2026-01-17T14:04:15.595+0700] {subprocess.py:93} INFO - [0m07:04:15  5 of 20 PASS not_null_dim_product_Color ........................................ [[32mPASS[0m in 0.02s]
+[2026-01-17T14:04:15.596+0700] {subprocess.py:93} INFO - [0m07:04:15  6 of 20 START test not_null_dim_product_ProductID .............................. [RUN]
+[2026-01-17T14:04:15.621+0700] {subprocess.py:93} INFO - [0m07:04:15  6 of 20 PASS not_null_dim_product_ProductID .................................... [[32mPASS[0m in 0.02s]
+[2026-01-17T14:04:15.622+0700] {subprocess.py:93} INFO - [0m07:04:15  7 of 20 START test not_null_dim_product_Size ................................... [RUN]
+[2026-01-17T14:04:15.648+0700] {subprocess.py:93} INFO - [0m07:04:15  7 of 20 PASS not_null_dim_product_Size ......................................... [[32mPASS[0m in 0.03s]
+[2026-01-17T14:04:15.649+0700] {subprocess.py:93} INFO - [0m07:04:15  8 of 20 START test not_null_dim_product_Style .................................. [RUN]
+[2026-01-17T14:04:15.673+0700] {subprocess.py:93} INFO - [0m07:04:15  8 of 20 PASS not_null_dim_product_Style ........................................ [[32mPASS[0m in 0.02s]
+[2026-01-17T14:04:15.674+0700] {subprocess.py:93} INFO - [0m07:04:15  9 of 20 START test not_null_dim_store_StoreID .................................. [RUN]
+[2026-01-17T14:04:15.698+0700] {subprocess.py:93} INFO - [0m07:04:15  9 of 20 PASS not_null_dim_store_StoreID ........................................ [[32mPASS[0m in 0.02s]
+[2026-01-17T14:04:15.699+0700] {subprocess.py:93} INFO - [0m07:04:15  10 of 20 START test not_null_dim_subcategory_product_SubCategoryProductID ...... [RUN]
+[2026-01-17T14:04:15.726+0700] {subprocess.py:93} INFO - [0m07:04:15  10 of 20 PASS not_null_dim_subcategory_product_SubCategoryProductID ............ [[32mPASS[0m in 0.03s]
+[2026-01-17T14:04:15.727+0700] {subprocess.py:93} INFO - [0m07:04:15  11 of 20 START test not_null_dim_territory_TerritoryID ......................... [RUN]
+[2026-01-17T14:04:15.752+0700] {subprocess.py:93} INFO - [0m07:04:15  11 of 20 PASS not_null_dim_territory_TerritoryID ............................... [[32mPASS[0m in 0.02s]
+[2026-01-17T14:04:15.753+0700] {subprocess.py:93} INFO - [0m07:04:15  12 of 20 START test not_null_fact_sales_ProductID .............................. [RUN]
+[2026-01-17T14:04:15.788+0700] {subprocess.py:93} INFO - [0m07:04:15  12 of 20 PASS not_null_fact_sales_ProductID .................................... [[32mPASS[0m in 0.03s]
+[2026-01-17T14:04:15.789+0700] {subprocess.py:93} INFO - [0m07:04:15  13 of 20 START test not_null_fact_sales_SalesOrderID ........................... [RUN]
+[2026-01-17T14:04:15.882+0700] {subprocess.py:93} INFO - [0m07:04:15  13 of 20 PASS not_null_fact_sales_SalesOrderID ................................. [[32mPASS[0m in 0.09s]
+[2026-01-17T14:04:15.883+0700] {subprocess.py:93} INFO - [0m07:04:15  14 of 20 START test not_null_fact_sales_Status ................................. [RUN]
+[2026-01-17T14:04:15.907+0700] {subprocess.py:93} INFO - [0m07:04:15  14 of 20 PASS not_null_fact_sales_Status ....................................... [[32mPASS[0m in 0.02s]
+[2026-01-17T14:04:15.908+0700] {subprocess.py:93} INFO - [0m07:04:15  15 of 20 START test unique_dim_category_product_CategoryProductID .............. [RUN]
+[2026-01-17T14:04:15.938+0700] {subprocess.py:93} INFO - [0m07:04:15  15 of 20 PASS unique_dim_category_product_CategoryProductID .................... [[32mPASS[0m in 0.03s]
+[2026-01-17T14:04:15.939+0700] {subprocess.py:93} INFO - [0m07:04:15  16 of 20 START test unique_dim_customer_CustomerID ............................. [RUN]
+[2026-01-17T14:04:15.968+0700] {subprocess.py:93} INFO - [0m07:04:15  16 of 20 PASS unique_dim_customer_CustomerID ................................... [[32mPASS[0m in 0.03s]
+[2026-01-17T14:04:15.969+0700] {subprocess.py:93} INFO - [0m07:04:15  17 of 20 START test unique_dim_product_ProductID ............................... [RUN]
+[2026-01-17T14:04:15.997+0700] {subprocess.py:93} INFO - [0m07:04:15  17 of 20 PASS unique_dim_product_ProductID ..................................... [[32mPASS[0m in 0.03s]
+[2026-01-17T14:04:15.998+0700] {subprocess.py:93} INFO - [0m07:04:15  18 of 20 START test unique_dim_store_StoreID ................................... [RUN]
+[2026-01-17T14:04:16.050+0700] {subprocess.py:93} INFO - [0m07:04:16  18 of 20 PASS unique_dim_store_StoreID ......................................... [[32mPASS[0m in 0.05s]
+[2026-01-17T14:04:16.051+0700] {subprocess.py:93} INFO - [0m07:04:16  19 of 20 START test unique_dim_subcategory_product_SubCategoryProductID ........ [RUN]
+[2026-01-17T14:04:16.080+0700] {subprocess.py:93} INFO - [0m07:04:16  19 of 20 PASS unique_dim_subcategory_product_SubCategoryProductID .............. [[32mPASS[0m in 0.03s]
+[2026-01-17T14:04:16.081+0700] {subprocess.py:93} INFO - [0m07:04:16  20 of 20 START test unique_dim_territory_TerritoryID ........................... [RUN]
+[2026-01-17T14:04:16.108+0700] {subprocess.py:93} INFO - [0m07:04:16  20 of 20 PASS unique_dim_territory_TerritoryID ................................. [[32mPASS[0m in 0.03s]
+[2026-01-17T14:04:16.110+0700] {subprocess.py:93} INFO - [0m07:04:16
+[2026-01-17T14:04:16.110+0700] {subprocess.py:93} INFO - [0m07:04:16  Finished running 20 data tests in 0 hours 0 minutes and 0.79 seconds (0.79s).
+[2026-01-17T14:04:16.146+0700] {subprocess.py:93} INFO - [0m07:04:16
+[2026-01-17T14:04:16.146+0700] {subprocess.py:93} INFO - [0m07:04:16  [32mCompleted successfully[0m
+[2026-01-17T14:04:16.146+0700] {subprocess.py:93} INFO - [0m07:04:16
+[2026-01-17T14:04:16.147+0700] {subprocess.py:93} INFO - [0m07:04:16  Done. PASS=20 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=20
+[2026-01-17T14:04:17.704+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-17T14:04:17.715+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=adventureworks_final, task_id=test_marts, execution_date=20260117T070013, start_date=20260117T070413, end_date=20260117T070417
+[2026-01-17T14:04:17.737+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-17T14:04:17.749+0700] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

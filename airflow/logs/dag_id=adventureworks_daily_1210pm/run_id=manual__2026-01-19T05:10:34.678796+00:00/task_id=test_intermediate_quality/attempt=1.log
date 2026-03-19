@@ -1,0 +1,40 @@
+[2026-01-19T12:10:55.401+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: adventureworks_daily_1210pm.test_intermediate_quality manual__2026-01-19T05:10:34.678796+00:00 [queued]>
+[2026-01-19T12:10:55.404+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: adventureworks_daily_1210pm.test_intermediate_quality manual__2026-01-19T05:10:34.678796+00:00 [queued]>
+[2026-01-19T12:10:55.404+0700] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2026-01-19T12:10:55.409+0700] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): test_intermediate_quality> on 2026-01-19 05:10:34.678796+00:00
+[2026-01-19T12:10:55.413+0700] {standard_task_runner.py:60} INFO - Started process 74703 to run task
+[2026-01-19T12:10:55.417+0700] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'adventureworks_daily_1210pm', 'test_intermediate_quality', 'manual__2026-01-19T05:10:34.678796+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/adventureworks_etl_dag.py', '--cfg-path', '/var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T/tmpxd85ckpd']
+[2026-01-19T12:10:55.419+0700] {standard_task_runner.py:88} INFO - Job 42: Subtask test_intermediate_quality
+[2026-01-19T12:10:55.438+0700] {task_command.py:423} INFO - Running <TaskInstance: adventureworks_daily_1210pm.test_intermediate_quality manual__2026-01-19T05:10:34.678796+00:00 [running]> on host macbook-pro-2.fpt
+[2026-01-19T12:10:55.463+0700] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kimhoang' AIRFLOW_CTX_DAG_ID='adventureworks_daily_1210pm' AIRFLOW_CTX_TASK_ID='test_intermediate_quality' AIRFLOW_CTX_EXECUTION_DATE='2026-01-19T05:10:34.678796+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-19T05:10:34.678796+00:00'
+[2026-01-19T12:10:55.463+0700] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T
+[2026-01-19T12:10:55.464+0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt && dbt test --select intermediate --profiles-dir /Users/tukimhoang/.dbt']
+[2026-01-19T12:10:55.468+0700] {subprocess.py:86} INFO - Output:
+[2026-01-19T12:10:56.414+0700] {subprocess.py:93} INFO - [0m05:10:56  Running with dbt=1.11.2
+[2026-01-19T12:10:56.709+0700] {subprocess.py:93} INFO - [0m05:10:56  Registered adapter: sqlserver=1.9.0
+[2026-01-19T12:10:57.030+0700] {subprocess.py:93} INFO - [0m05:10:57  Found 25 models, 28 data tests, 8 sources, 538 macros
+[2026-01-19T12:10:57.032+0700] {subprocess.py:93} INFO - [0m05:10:57
+[2026-01-19T12:10:57.032+0700] {subprocess.py:93} INFO - [0m05:10:57  Concurrency: 1 threads (target='dev')
+[2026-01-19T12:10:57.032+0700] {subprocess.py:93} INFO - [0m05:10:57
+[2026-01-19T12:10:57.142+0700] {subprocess.py:93} INFO - [0m05:10:57  1 of 6 START test accepted_values_int_sales_cleaned_Status__In_Process__Approved__Backordered__Rejected__Shipped__Cancelled  [RUN]
+[2026-01-19T12:10:57.251+0700] {subprocess.py:93} INFO - [0m05:10:57  1 of 6 PASS accepted_values_int_sales_cleaned_Status__In_Process__Approved__Backordered__Rejected__Shipped__Cancelled  [[32mPASS[0m in 0.11s]
+[2026-01-19T12:10:57.252+0700] {subprocess.py:93} INFO - [0m05:10:57  2 of 6 START test not_null_int_employee_cleaned_StoreID ........................ [RUN]
+[2026-01-19T12:10:57.284+0700] {subprocess.py:93} INFO - [0m05:10:57  2 of 6 PASS not_null_int_employee_cleaned_StoreID .............................. [[32mPASS[0m in 0.03s]
+[2026-01-19T12:10:57.285+0700] {subprocess.py:93} INFO - [0m05:10:57  3 of 6 START test not_null_int_product_cleaned_Color ........................... [RUN]
+[2026-01-19T12:10:57.312+0700] {subprocess.py:93} INFO - [0m05:10:57  3 of 6 PASS not_null_int_product_cleaned_Color ................................. [[32mPASS[0m in 0.03s]
+[2026-01-19T12:10:57.313+0700] {subprocess.py:93} INFO - [0m05:10:57  4 of 6 START test not_null_int_product_cleaned_Size ............................ [RUN]
+[2026-01-19T12:10:57.336+0700] {subprocess.py:93} INFO - [0m05:10:57  4 of 6 PASS not_null_int_product_cleaned_Size .................................. [[32mPASS[0m in 0.02s]
+[2026-01-19T12:10:57.337+0700] {subprocess.py:93} INFO - [0m05:10:57  5 of 6 START test not_null_int_product_cleaned_Style ........................... [RUN]
+[2026-01-19T12:10:57.363+0700] {subprocess.py:93} INFO - [0m05:10:57  5 of 6 PASS not_null_int_product_cleaned_Style ................................. [[32mPASS[0m in 0.03s]
+[2026-01-19T12:10:57.364+0700] {subprocess.py:93} INFO - [0m05:10:57  6 of 6 START test not_null_int_sales_cleaned_Status ............................ [RUN]
+[2026-01-19T12:10:57.405+0700] {subprocess.py:93} INFO - [0m05:10:57  6 of 6 PASS not_null_int_sales_cleaned_Status .................................. [[32mPASS[0m in 0.04s]
+[2026-01-19T12:10:57.406+0700] {subprocess.py:93} INFO - [0m05:10:57
+[2026-01-19T12:10:57.407+0700] {subprocess.py:93} INFO - [0m05:10:57  Finished running 6 data tests in 0 hours 0 minutes and 0.37 seconds (0.37s).
+[2026-01-19T12:10:57.441+0700] {subprocess.py:93} INFO - [0m05:10:57
+[2026-01-19T12:10:57.441+0700] {subprocess.py:93} INFO - [0m05:10:57  [32mCompleted successfully[0m
+[2026-01-19T12:10:57.441+0700] {subprocess.py:93} INFO - [0m05:10:57
+[2026-01-19T12:10:57.442+0700] {subprocess.py:93} INFO - [0m05:10:57  Done. PASS=6 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=6
+[2026-01-19T12:11:00.009+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-19T12:11:00.019+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=adventureworks_daily_1210pm, task_id=test_intermediate_quality, execution_date=20260119T051034, start_date=20260119T051055, end_date=20260119T051100
+[2026-01-19T12:11:00.055+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-19T12:11:00.067+0700] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

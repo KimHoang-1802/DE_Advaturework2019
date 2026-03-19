@@ -1,0 +1,50 @@
+[2026-01-17T14:02:28.753+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: adventureworks_final.test_connection manual__2026-01-17T07:00:13.457598+00:00 [queued]>
+[2026-01-17T14:02:28.756+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: adventureworks_final.test_connection manual__2026-01-17T07:00:13.457598+00:00 [queued]>
+[2026-01-17T14:02:28.756+0700] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-17T14:02:28.763+0700] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): test_connection> on 2026-01-17 07:00:13.457598+00:00
+[2026-01-17T14:02:28.767+0700] {standard_task_runner.py:60} INFO - Started process 51252 to run task
+[2026-01-17T14:02:28.771+0700] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'adventureworks_final', 'test_connection', 'manual__2026-01-17T07:00:13.457598+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/adventureworks_etl_dag.py', '--cfg-path', '/var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T/tmptpu7ae31']
+[2026-01-17T14:02:28.773+0700] {standard_task_runner.py:88} INFO - Job 4: Subtask test_connection
+[2026-01-17T14:02:28.792+0700] {task_command.py:423} INFO - Running <TaskInstance: adventureworks_final.test_connection manual__2026-01-17T07:00:13.457598+00:00 [running]> on host macbook-pro-2.fpt
+[2026-01-17T14:02:28.817+0700] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kimhoang' AIRFLOW_CTX_DAG_ID='adventureworks_final' AIRFLOW_CTX_TASK_ID='test_connection' AIRFLOW_CTX_EXECUTION_DATE='2026-01-17T07:00:13.457598+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-17T07:00:13.457598+00:00'
+[2026-01-17T14:02:28.818+0700] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T
+[2026-01-17T14:02:28.818+0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt && dbt debug --profiles-dir /Users/tukimhoang/.dbt']
+[2026-01-17T14:02:28.823+0700] {subprocess.py:86} INFO - Output:
+[2026-01-17T14:02:29.835+0700] {subprocess.py:93} INFO - [0m07:02:29  Running with dbt=1.11.2
+[2026-01-17T14:02:29.841+0700] {subprocess.py:93} INFO - [0m07:02:29  dbt version: 1.11.2
+[2026-01-17T14:02:29.842+0700] {subprocess.py:93} INFO - [0m07:02:29  python version: 3.10.10
+[2026-01-17T14:02:29.842+0700] {subprocess.py:93} INFO - [0m07:02:29  python path: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt-env/bin/python3.10
+[2026-01-17T14:02:29.842+0700] {subprocess.py:93} INFO - [0m07:02:29  os info: macOS-14.1-arm64-arm-64bit
+[2026-01-17T14:02:29.946+0700] {subprocess.py:93} INFO - [0m07:02:29  Using profiles dir at /Users/tukimhoang/.dbt
+[2026-01-17T14:02:29.947+0700] {subprocess.py:93} INFO - [0m07:02:29  Using profiles.yml file at /Users/tukimhoang/.dbt/profiles.yml
+[2026-01-17T14:02:29.947+0700] {subprocess.py:93} INFO - [0m07:02:29  Using dbt_project.yml file at /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt/dbt_project.yml
+[2026-01-17T14:02:29.947+0700] {subprocess.py:93} INFO - [0m07:02:29  adapter type: sqlserver
+[2026-01-17T14:02:29.947+0700] {subprocess.py:93} INFO - [0m07:02:29  adapter version: 1.9.0
+[2026-01-17T14:02:30.014+0700] {subprocess.py:93} INFO - [0m07:02:30  Configuration:
+[2026-01-17T14:02:30.015+0700] {subprocess.py:93} INFO - [0m07:02:30    profiles.yml file [[32mOK found and valid[0m]
+[2026-01-17T14:02:30.015+0700] {subprocess.py:93} INFO - [0m07:02:30    dbt_project.yml file [[32mOK found and valid[0m]
+[2026-01-17T14:02:30.015+0700] {subprocess.py:93} INFO - [0m07:02:30  Required dependencies:
+[2026-01-17T14:02:30.033+0700] {subprocess.py:93} INFO - [0m07:02:30   - git [[32mOK found[0m]
+[2026-01-17T14:02:30.033+0700] {subprocess.py:93} INFO - 
+[2026-01-17T14:02:30.033+0700] {subprocess.py:93} INFO - [0m07:02:30  Connection:
+[2026-01-17T14:02:30.033+0700] {subprocess.py:93} INFO - [0m07:02:30    server: localhost
+[2026-01-17T14:02:30.034+0700] {subprocess.py:93} INFO - [0m07:02:30    database: AdventureWorks2019
+[2026-01-17T14:02:30.034+0700] {subprocess.py:93} INFO - [0m07:02:30    schema: stagging
+[2026-01-17T14:02:30.034+0700] {subprocess.py:93} INFO - [0m07:02:30    UID: sa
+[2026-01-17T14:02:30.034+0700] {subprocess.py:93} INFO - [0m07:02:30    client_id: None
+[2026-01-17T14:02:30.035+0700] {subprocess.py:93} INFO - [0m07:02:30    authentication: sql
+[2026-01-17T14:02:30.035+0700] {subprocess.py:93} INFO - [0m07:02:30    encrypt: True
+[2026-01-17T14:02:30.035+0700] {subprocess.py:93} INFO - [0m07:02:30    trust_cert: True
+[2026-01-17T14:02:30.035+0700] {subprocess.py:93} INFO - [0m07:02:30    retries: 3
+[2026-01-17T14:02:30.035+0700] {subprocess.py:93} INFO - [0m07:02:30    login_timeout: 0
+[2026-01-17T14:02:30.036+0700] {subprocess.py:93} INFO - [0m07:02:30    query_timeout: 0
+[2026-01-17T14:02:30.036+0700] {subprocess.py:93} INFO - [0m07:02:30    trace_flag: False
+[2026-01-17T14:02:30.036+0700] {subprocess.py:93} INFO - [0m07:02:30    port: 1433
+[2026-01-17T14:02:30.037+0700] {subprocess.py:93} INFO - [0m07:02:30  Registered adapter: sqlserver=1.9.0
+[2026-01-17T14:02:30.182+0700] {subprocess.py:93} INFO - [0m07:02:30    Connection test: [[32mOK connection ok[0m]
+[2026-01-17T14:02:30.182+0700] {subprocess.py:93} INFO - 
+[2026-01-17T14:02:30.183+0700] {subprocess.py:93} INFO - [0m07:02:30  [32mAll checks passed![0m
+[2026-01-17T14:02:32.006+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-17T14:02:32.017+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=adventureworks_final, task_id=test_connection, execution_date=20260117T070013, start_date=20260117T070228, end_date=20260117T070232
+[2026-01-17T14:02:32.061+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-17T14:02:32.073+0700] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

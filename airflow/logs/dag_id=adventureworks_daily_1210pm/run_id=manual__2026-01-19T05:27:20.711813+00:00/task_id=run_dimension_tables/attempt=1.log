@@ -1,0 +1,42 @@
+[2026-01-19T12:27:46.981+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: adventureworks_daily_1210pm.run_dimension_tables manual__2026-01-19T05:27:20.711813+00:00 [queued]>
+[2026-01-19T12:27:46.984+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: adventureworks_daily_1210pm.run_dimension_tables manual__2026-01-19T05:27:20.711813+00:00 [queued]>
+[2026-01-19T12:27:46.984+0700] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2026-01-19T12:27:46.989+0700] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): run_dimension_tables> on 2026-01-19 05:27:20.711813+00:00
+[2026-01-19T12:27:46.993+0700] {standard_task_runner.py:60} INFO - Started process 81641 to run task
+[2026-01-19T12:27:46.997+0700] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'adventureworks_daily_1210pm', 'run_dimension_tables', 'manual__2026-01-19T05:27:20.711813+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/adventureworks_etl_dag.py', '--cfg-path', '/var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T/tmpptyb6qkn']
+[2026-01-19T12:27:46.999+0700] {standard_task_runner.py:88} INFO - Job 54: Subtask run_dimension_tables
+[2026-01-19T12:27:47.019+0700] {task_command.py:423} INFO - Running <TaskInstance: adventureworks_daily_1210pm.run_dimension_tables manual__2026-01-19T05:27:20.711813+00:00 [running]> on host macbook-pro-2.fpt
+[2026-01-19T12:27:47.048+0700] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kimhoang' AIRFLOW_CTX_DAG_ID='adventureworks_daily_1210pm' AIRFLOW_CTX_TASK_ID='run_dimension_tables' AIRFLOW_CTX_EXECUTION_DATE='2026-01-19T05:27:20.711813+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-19T05:27:20.711813+00:00'
+[2026-01-19T12:27:47.049+0700] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T
+[2026-01-19T12:27:47.049+0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt && dbt run --select dim_category_product dim_customer dim_employee dim_product dim_store dim_subcategory_product dim_territory --profiles-dir /Users/tukimhoang/.dbt']
+[2026-01-19T12:27:47.054+0700] {subprocess.py:86} INFO - Output:
+[2026-01-19T12:27:48.011+0700] {subprocess.py:93} INFO - [0m05:27:48  Running with dbt=1.11.2
+[2026-01-19T12:27:48.288+0700] {subprocess.py:93} INFO - [0m05:27:48  Registered adapter: sqlserver=1.9.0
+[2026-01-19T12:27:48.607+0700] {subprocess.py:93} INFO - [0m05:27:48  Found 25 models, 28 data tests, 8 sources, 538 macros
+[2026-01-19T12:27:48.609+0700] {subprocess.py:93} INFO - [0m05:27:48
+[2026-01-19T12:27:48.610+0700] {subprocess.py:93} INFO - [0m05:27:48  Concurrency: 1 threads (target='dev')
+[2026-01-19T12:27:48.610+0700] {subprocess.py:93} INFO - [0m05:27:48
+[2026-01-19T12:27:48.737+0700] {subprocess.py:93} INFO - [0m05:27:48  1 of 7 START sql table model stagging_dw.DIM_Category_Product .................. [RUN]
+[2026-01-19T12:27:48.990+0700] {subprocess.py:93} INFO - [0m05:27:48  1 of 7 OK created sql table model stagging_dw.DIM_Category_Product ............. [[32mOK[0m in 0.25s]
+[2026-01-19T12:27:48.991+0700] {subprocess.py:93} INFO - [0m05:27:48  2 of 7 START sql table model stagging_dw.DIM_Customer .......................... [RUN]
+[2026-01-19T12:27:49.117+0700] {subprocess.py:93} INFO - [0m05:27:49  2 of 7 OK created sql table model stagging_dw.DIM_Customer ..................... [[32mOK[0m in 0.12s]
+[2026-01-19T12:27:49.118+0700] {subprocess.py:93} INFO - [0m05:27:49  3 of 7 START sql table model stagging_dw.DIM_Employee .......................... [RUN]
+[2026-01-19T12:27:49.224+0700] {subprocess.py:93} INFO - [0m05:27:49  3 of 7 OK created sql table model stagging_dw.DIM_Employee ..................... [[32mOK[0m in 0.10s]
+[2026-01-19T12:27:49.225+0700] {subprocess.py:93} INFO - [0m05:27:49  4 of 7 START sql table model stagging_dw.DIM_Product ........................... [RUN]
+[2026-01-19T12:27:49.381+0700] {subprocess.py:93} INFO - [0m05:27:49  4 of 7 OK created sql table model stagging_dw.DIM_Product ...................... [[32mOK[0m in 0.16s]
+[2026-01-19T12:27:49.382+0700] {subprocess.py:93} INFO - [0m05:27:49  5 of 7 START sql table model stagging_dw.DIM_Store ............................. [RUN]
+[2026-01-19T12:27:49.478+0700] {subprocess.py:93} INFO - [0m05:27:49  5 of 7 OK created sql table model stagging_dw.DIM_Store ........................ [[32mOK[0m in 0.09s]
+[2026-01-19T12:27:49.479+0700] {subprocess.py:93} INFO - [0m05:27:49  6 of 7 START sql table model stagging_dw.DIM_SubCategory_Product ............... [RUN]
+[2026-01-19T12:27:49.572+0700] {subprocess.py:93} INFO - [0m05:27:49  6 of 7 OK created sql table model stagging_dw.DIM_SubCategory_Product .......... [[32mOK[0m in 0.09s]
+[2026-01-19T12:27:49.573+0700] {subprocess.py:93} INFO - [0m05:27:49  7 of 7 START sql table model stagging_dw.DIM_Territory ......................... [RUN]
+[2026-01-19T12:27:49.669+0700] {subprocess.py:93} INFO - [0m05:27:49  7 of 7 OK created sql table model stagging_dw.DIM_Territory .................... [[32mOK[0m in 0.09s]
+[2026-01-19T12:27:49.671+0700] {subprocess.py:93} INFO - [0m05:27:49
+[2026-01-19T12:27:49.671+0700] {subprocess.py:93} INFO - [0m05:27:49  Finished running 7 table models in 0 hours 0 minutes and 1.06 seconds (1.06s).
+[2026-01-19T12:27:49.707+0700] {subprocess.py:93} INFO - [0m05:27:49
+[2026-01-19T12:27:49.708+0700] {subprocess.py:93} INFO - [0m05:27:49  [32mCompleted successfully[0m
+[2026-01-19T12:27:49.708+0700] {subprocess.py:93} INFO - [0m05:27:49
+[2026-01-19T12:27:49.708+0700] {subprocess.py:93} INFO - [0m05:27:49  Done. PASS=7 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=7
+[2026-01-19T12:27:52.016+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-19T12:27:52.025+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=adventureworks_daily_1210pm, task_id=run_dimension_tables, execution_date=20260119T052720, start_date=20260119T052746, end_date=20260119T052752
+[2026-01-19T12:27:52.034+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-19T12:27:52.045+0700] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

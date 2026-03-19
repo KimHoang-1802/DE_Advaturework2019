@@ -1,0 +1,50 @@
+[2026-01-17T14:06:05.415+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: adventureworks_final.test_connection scheduled__2026-01-16T07:00:00+00:00 [queued]>
+[2026-01-17T14:06:05.419+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: adventureworks_final.test_connection scheduled__2026-01-16T07:00:00+00:00 [queued]>
+[2026-01-17T14:06:05.419+0700] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-17T14:06:05.424+0700] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): test_connection> on 2026-01-16 07:00:00+00:00
+[2026-01-17T14:06:05.427+0700] {standard_task_runner.py:60} INFO - Started process 52956 to run task
+[2026-01-17T14:06:05.430+0700] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'adventureworks_final', 'test_connection', 'scheduled__2026-01-16T07:00:00+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/adventureworks_etl_dag.py', '--cfg-path', '/var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T/tmp04rwp60_']
+[2026-01-17T14:06:05.431+0700] {standard_task_runner.py:88} INFO - Job 26: Subtask test_connection
+[2026-01-17T14:06:05.458+0700] {task_command.py:423} INFO - Running <TaskInstance: adventureworks_final.test_connection scheduled__2026-01-16T07:00:00+00:00 [running]> on host macbook-pro-2.fpt
+[2026-01-17T14:06:05.490+0700] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kimhoang' AIRFLOW_CTX_DAG_ID='adventureworks_final' AIRFLOW_CTX_TASK_ID='test_connection' AIRFLOW_CTX_EXECUTION_DATE='2026-01-16T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-16T07:00:00+00:00'
+[2026-01-17T14:06:05.491+0700] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T
+[2026-01-17T14:06:05.491+0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt && dbt debug --profiles-dir /Users/tukimhoang/.dbt']
+[2026-01-17T14:06:05.495+0700] {subprocess.py:86} INFO - Output:
+[2026-01-17T14:06:06.533+0700] {subprocess.py:93} INFO - [0m07:06:06  Running with dbt=1.11.2
+[2026-01-17T14:06:06.543+0700] {subprocess.py:93} INFO - [0m07:06:06  dbt version: 1.11.2
+[2026-01-17T14:06:06.543+0700] {subprocess.py:93} INFO - [0m07:06:06  python version: 3.10.10
+[2026-01-17T14:06:06.543+0700] {subprocess.py:93} INFO - [0m07:06:06  python path: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt-env/bin/python3.10
+[2026-01-17T14:06:06.544+0700] {subprocess.py:93} INFO - [0m07:06:06  os info: macOS-14.1-arm64-arm-64bit
+[2026-01-17T14:06:06.663+0700] {subprocess.py:93} INFO - [0m07:06:06  Using profiles dir at /Users/tukimhoang/.dbt
+[2026-01-17T14:06:06.664+0700] {subprocess.py:93} INFO - [0m07:06:06  Using profiles.yml file at /Users/tukimhoang/.dbt/profiles.yml
+[2026-01-17T14:06:06.664+0700] {subprocess.py:93} INFO - [0m07:06:06  Using dbt_project.yml file at /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt/dbt_project.yml
+[2026-01-17T14:06:06.664+0700] {subprocess.py:93} INFO - [0m07:06:06  adapter type: sqlserver
+[2026-01-17T14:06:06.664+0700] {subprocess.py:93} INFO - [0m07:06:06  adapter version: 1.9.0
+[2026-01-17T14:06:06.730+0700] {subprocess.py:93} INFO - [0m07:06:06  Configuration:
+[2026-01-17T14:06:06.730+0700] {subprocess.py:93} INFO - [0m07:06:06    profiles.yml file [[32mOK found and valid[0m]
+[2026-01-17T14:06:06.731+0700] {subprocess.py:93} INFO - [0m07:06:06    dbt_project.yml file [[32mOK found and valid[0m]
+[2026-01-17T14:06:06.731+0700] {subprocess.py:93} INFO - [0m07:06:06  Required dependencies:
+[2026-01-17T14:06:06.748+0700] {subprocess.py:93} INFO - [0m07:06:06   - git [[32mOK found[0m]
+[2026-01-17T14:06:06.748+0700] {subprocess.py:93} INFO - 
+[2026-01-17T14:06:06.748+0700] {subprocess.py:93} INFO - [0m07:06:06  Connection:
+[2026-01-17T14:06:06.748+0700] {subprocess.py:93} INFO - [0m07:06:06    server: localhost
+[2026-01-17T14:06:06.748+0700] {subprocess.py:93} INFO - [0m07:06:06    database: AdventureWorks2019
+[2026-01-17T14:06:06.749+0700] {subprocess.py:93} INFO - [0m07:06:06    schema: stagging
+[2026-01-17T14:06:06.749+0700] {subprocess.py:93} INFO - [0m07:06:06    UID: sa
+[2026-01-17T14:06:06.749+0700] {subprocess.py:93} INFO - [0m07:06:06    client_id: None
+[2026-01-17T14:06:06.749+0700] {subprocess.py:93} INFO - [0m07:06:06    authentication: sql
+[2026-01-17T14:06:06.750+0700] {subprocess.py:93} INFO - [0m07:06:06    encrypt: True
+[2026-01-17T14:06:06.750+0700] {subprocess.py:93} INFO - [0m07:06:06    trust_cert: True
+[2026-01-17T14:06:06.750+0700] {subprocess.py:93} INFO - [0m07:06:06    retries: 3
+[2026-01-17T14:06:06.750+0700] {subprocess.py:93} INFO - [0m07:06:06    login_timeout: 0
+[2026-01-17T14:06:06.750+0700] {subprocess.py:93} INFO - [0m07:06:06    query_timeout: 0
+[2026-01-17T14:06:06.751+0700] {subprocess.py:93} INFO - [0m07:06:06    trace_flag: False
+[2026-01-17T14:06:06.751+0700] {subprocess.py:93} INFO - [0m07:06:06    port: 1433
+[2026-01-17T14:06:06.751+0700] {subprocess.py:93} INFO - [0m07:06:06  Registered adapter: sqlserver=1.9.0
+[2026-01-17T14:06:06.923+0700] {subprocess.py:93} INFO - [0m07:06:06    Connection test: [[32mOK connection ok[0m]
+[2026-01-17T14:06:06.923+0700] {subprocess.py:93} INFO - 
+[2026-01-17T14:06:06.923+0700] {subprocess.py:93} INFO - [0m07:06:06  [32mAll checks passed![0m
+[2026-01-17T14:06:08.827+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-17T14:06:08.836+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=adventureworks_final, task_id=test_connection, execution_date=20260116T070000, start_date=20260117T070605, end_date=20260117T070608
+[2026-01-17T14:06:08.848+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-17T14:06:08.859+0700] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

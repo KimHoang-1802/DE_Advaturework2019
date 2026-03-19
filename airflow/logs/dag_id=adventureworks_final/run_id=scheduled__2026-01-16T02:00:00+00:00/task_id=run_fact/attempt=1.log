@@ -1,0 +1,30 @@
+[2026-01-17T14:03:43.302+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: adventureworks_final.run_fact scheduled__2026-01-16T02:00:00+00:00 [queued]>
+[2026-01-17T14:03:43.305+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: adventureworks_final.run_fact scheduled__2026-01-16T02:00:00+00:00 [queued]>
+[2026-01-17T14:03:43.305+0700] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-01-17T14:03:43.312+0700] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): run_fact> on 2026-01-16 02:00:00+00:00
+[2026-01-17T14:03:43.316+0700] {standard_task_runner.py:60} INFO - Started process 51907 to run task
+[2026-01-17T14:03:43.320+0700] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'adventureworks_final', 'run_fact', 'scheduled__2026-01-16T02:00:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/adventureworks_etl_dag.py', '--cfg-path', '/var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T/tmp4c5pccwb']
+[2026-01-17T14:03:43.322+0700] {standard_task_runner.py:88} INFO - Job 17: Subtask run_fact
+[2026-01-17T14:03:43.342+0700] {task_command.py:423} INFO - Running <TaskInstance: adventureworks_final.run_fact scheduled__2026-01-16T02:00:00+00:00 [running]> on host macbook-pro-2.fpt
+[2026-01-17T14:03:43.367+0700] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kimhoang' AIRFLOW_CTX_DAG_ID='adventureworks_final' AIRFLOW_CTX_TASK_ID='run_fact' AIRFLOW_CTX_EXECUTION_DATE='2026-01-16T02:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-16T02:00:00+00:00'
+[2026-01-17T14:03:43.368+0700] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T
+[2026-01-17T14:03:43.369+0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt && dbt run --select fact_sales --profiles-dir /Users/tukimhoang/.dbt']
+[2026-01-17T14:03:43.374+0700] {subprocess.py:86} INFO - Output:
+[2026-01-17T14:03:44.323+0700] {subprocess.py:93} INFO - [0m07:03:44  Running with dbt=1.11.2
+[2026-01-17T14:03:44.608+0700] {subprocess.py:93} INFO - [0m07:03:44  Registered adapter: sqlserver=1.9.0
+[2026-01-17T14:03:44.927+0700] {subprocess.py:93} INFO - [0m07:03:44  Found 25 models, 28 data tests, 8 sources, 538 macros
+[2026-01-17T14:03:44.929+0700] {subprocess.py:93} INFO - [0m07:03:44
+[2026-01-17T14:03:44.929+0700] {subprocess.py:93} INFO - [0m07:03:44  Concurrency: 1 threads (target='dev')
+[2026-01-17T14:03:44.929+0700] {subprocess.py:93} INFO - [0m07:03:44
+[2026-01-17T14:03:45.059+0700] {subprocess.py:93} INFO - [0m07:03:45  1 of 1 START sql incremental model stagging_dw.FACT_Sales ...................... [RUN]
+[2026-01-17T14:03:46.553+0700] {subprocess.py:93} INFO - [0m07:03:46  1 of 1 OK created sql incremental model stagging_dw.FACT_Sales ................. [[32mOK[0m in 1.49s]
+[2026-01-17T14:03:46.556+0700] {subprocess.py:93} INFO - [0m07:03:46
+[2026-01-17T14:03:46.556+0700] {subprocess.py:93} INFO - [0m07:03:46  Finished running 1 incremental model in 0 hours 0 minutes and 1.63 seconds (1.63s).
+[2026-01-17T14:03:46.590+0700] {subprocess.py:93} INFO - [0m07:03:46
+[2026-01-17T14:03:46.590+0700] {subprocess.py:93} INFO - [0m07:03:46  [32mCompleted successfully[0m
+[2026-01-17T14:03:46.590+0700] {subprocess.py:93} INFO - [0m07:03:46
+[2026-01-17T14:03:46.590+0700] {subprocess.py:93} INFO - [0m07:03:46  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[2026-01-17T14:03:48.130+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-17T14:03:48.143+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=adventureworks_final, task_id=run_fact, execution_date=20260116T020000, start_date=20260117T070343, end_date=20260117T070348
+[2026-01-17T14:03:48.163+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-17T14:03:48.175+0700] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

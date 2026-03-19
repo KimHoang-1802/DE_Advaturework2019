@@ -1,0 +1,637 @@
+[2026-01-17T14:02:16.272+0700] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2026-01-17T14:02:16.272+0700] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-17T14:02:16.272+0700] {manager.py:471} INFO - Checking for new files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags every 300 seconds
+[2026-01-17T14:02:16.272+0700] {manager.py:738} INFO - Searching for files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-17T14:02:16.274+0700] {manager.py:741} INFO - There are 1 files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-17T14:02:17.529+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.20s           2026-01-17T07:02:17
+================================================================================
+[2026-01-17T14:02:51.563+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.13s           2026-01-17T07:02:51
+================================================================================
+[2026-01-17T14:03:23.844+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.20s           2026-01-17T07:03:23
+================================================================================
+[2026-01-17T14:04:01.931+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.15s           2026-01-17T07:04:01
+================================================================================
+[2026-01-17T14:04:35.331+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.16s           2026-01-17T07:04:35
+================================================================================
+[2026-01-17T14:05:06.613+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.23s           2026-01-17T07:05:06
+================================================================================
+[2026-01-17T14:05:37.956+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.31s           2026-01-17T07:05:37
+================================================================================
+[2026-01-17T14:06:09.139+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.48s           2026-01-17T07:06:03
+================================================================================
+[2026-01-17T14:06:31.924+0700] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-01-17T14:06:37.393+0700] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2026-01-17T14:06:37.393+0700] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-17T14:06:37.393+0700] {manager.py:471} INFO - Checking for new files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags every 300 seconds
+[2026-01-17T14:06:37.393+0700] {manager.py:738} INFO - Searching for files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-17T14:06:37.394+0700] {manager.py:741} INFO - There are 1 files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-17T14:06:38.537+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.09s           2026-01-17T07:06:38
+================================================================================
+[2026-01-17T14:07:09.943+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.07s           2026-01-17T07:07:09
+================================================================================
+[2026-01-17T14:07:41.583+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.04s           2026-01-17T07:07:41
+================================================================================
+[2026-01-17T14:08:12.767+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.11s           2026-01-17T07:08:12
+================================================================================
+[2026-01-17T14:08:23.083+0700] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-01-19T12:04:41.318+0700] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2026-01-19T12:04:41.319+0700] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-19T12:04:41.319+0700] {manager.py:471} INFO - Checking for new files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags every 300 seconds
+[2026-01-19T12:04:41.319+0700] {manager.py:738} INFO - Searching for files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:04:41.320+0700] {manager.py:741} INFO - There are 1 files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:04:42.682+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           0           1  1.30s           2026-01-19T05:04:42
+================================================================================
+[2026-01-19T12:05:14.037+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           0           1  1.28s           2026-01-19T05:05:14
+================================================================================
+[2026-01-19T12:05:45.577+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           0           1  1.52s           2026-01-19T05:05:45
+================================================================================
+[2026-01-19T12:06:13.288+0700] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-01-19T12:06:25.982+0700] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2026-01-19T12:06:25.982+0700] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-19T12:06:25.982+0700] {manager.py:471} INFO - Checking for new files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags every 300 seconds
+[2026-01-19T12:06:25.982+0700] {manager.py:738} INFO - Searching for files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:06:25.984+0700] {manager.py:741} INFO - There are 1 files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:06:27.192+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.15s           2026-01-19T05:06:27
+================================================================================
+[2026-01-19T12:06:58.523+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.17s           2026-01-19T05:06:58
+================================================================================
+[2026-01-19T12:07:29.620+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.02s           2026-01-19T05:07:29
+================================================================================
+[2026-01-19T12:08:00.894+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.03s           2026-01-19T05:08:00
+================================================================================
+[2026-01-19T12:08:32.402+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.28s           2026-01-19T05:08:32
+================================================================================
+[2026-01-19T12:08:52.249+0700] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-01-19T12:10:05.306+0700] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2026-01-19T12:10:05.306+0700] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-19T12:10:05.306+0700] {manager.py:471} INFO - Checking for new files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags every 300 seconds
+[2026-01-19T12:10:05.306+0700] {manager.py:738} INFO - Searching for files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:10:05.308+0700] {manager.py:741} INFO - There are 1 files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:10:06.372+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.01s           2026-01-19T05:10:06
+================================================================================
+[2026-01-19T12:10:38.256+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.15s           2026-01-19T05:10:38
+================================================================================
+[2026-01-19T12:11:11.938+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.20s           2026-01-19T05:11:11
+================================================================================
+[2026-01-19T12:11:44.025+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.07s           2026-01-19T05:11:44
+================================================================================
+[2026-01-19T12:12:15.155+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.03s           2026-01-19T05:12:15
+================================================================================
+[2026-01-19T12:12:46.249+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.03s           2026-01-19T05:12:46
+================================================================================
+[2026-01-19T12:13:17.318+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.00s           2026-01-19T05:13:17
+================================================================================
+[2026-01-19T12:13:48.411+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.03s           2026-01-19T05:13:48
+================================================================================
+[2026-01-19T12:14:19.493+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.01s           2026-01-19T05:14:19
+================================================================================
+[2026-01-19T12:14:50.588+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.03s           2026-01-19T05:14:50
+================================================================================
+[2026-01-19T12:15:05.542+0700] {manager.py:738} INFO - Searching for files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:15:05.544+0700] {manager.py:741} INFO - There are 1 files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:15:21.654+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.01s           2026-01-19T05:15:21
+================================================================================
+[2026-01-19T12:15:52.734+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.02s           2026-01-19T05:15:52
+================================================================================
+[2026-01-19T12:16:23.816+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.02s           2026-01-19T05:16:23
+================================================================================
+[2026-01-19T12:16:54.909+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.03s           2026-01-19T05:16:54
+================================================================================
+[2026-01-19T12:17:25.996+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.02s           2026-01-19T05:17:25
+================================================================================
+[2026-01-19T12:17:57.085+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.02s           2026-01-19T05:17:57
+================================================================================
+[2026-01-19T12:18:28.189+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.03s           2026-01-19T05:18:28
+================================================================================
+[2026-01-19T12:18:59.503+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.24s           2026-01-19T05:18:59
+================================================================================
+[2026-01-19T12:19:30.833+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.25s           2026-01-19T05:19:30
+================================================================================
+[2026-01-19T12:20:01.936+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.03s           2026-01-19T05:20:01
+================================================================================
+[2026-01-19T12:20:05.654+0700] {manager.py:738} INFO - Searching for files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:20:05.656+0700] {manager.py:741} INFO - There are 1 files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:20:33.056+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.05s           2026-01-19T05:20:33
+================================================================================
+[2026-01-19T12:21:04.171+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.05s           2026-01-19T05:21:04
+================================================================================
+[2026-01-19T12:21:35.407+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.16s           2026-01-19T05:21:35
+================================================================================
+[2026-01-19T12:22:06.794+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.32s           2026-01-19T05:22:06
+================================================================================
+[2026-01-19T12:22:38.294+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.43s           2026-01-19T05:22:38
+================================================================================
+[2026-01-19T12:23:09.711+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.34s           2026-01-19T05:23:09
+================================================================================
+[2026-01-19T12:23:41.099+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.32s           2026-01-19T05:23:41
+================================================================================
+[2026-01-19T12:24:12.452+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.30s           2026-01-19T05:24:12
+================================================================================
+[2026-01-19T12:24:43.603+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.08s           2026-01-19T05:24:43
+================================================================================
+[2026-01-19T12:25:06.641+0700] {manager.py:738} INFO - Searching for files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:25:06.644+0700] {manager.py:741} INFO - There are 1 files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:25:14.746+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.07s           2026-01-19T05:25:14
+================================================================================
+[2026-01-19T12:25:46.201+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.34s           2026-01-19T05:25:46
+================================================================================
+[2026-01-19T12:26:17.312+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.04s           2026-01-19T05:26:17
+================================================================================
+[2026-01-19T12:26:40.298+0700] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-01-19T12:26:59.543+0700] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2026-01-19T12:26:59.543+0700] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-19T12:26:59.543+0700] {manager.py:471} INFO - Checking for new files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags every 300 seconds
+[2026-01-19T12:26:59.543+0700] {manager.py:738} INFO - Searching for files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:26:59.544+0700] {manager.py:741} INFO - There are 1 files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:27:00.840+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.24s           2026-01-19T05:27:00
+================================================================================
+[2026-01-19T12:27:35.745+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.24s           2026-01-19T05:27:35
+================================================================================
+[2026-01-19T12:28:10.777+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.22s           2026-01-19T05:28:10
+================================================================================
+[2026-01-19T12:28:42.842+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.10s           2026-01-19T05:28:42
+================================================================================
+[2026-01-19T12:29:14.450+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.45s           2026-01-19T05:29:14
+================================================================================
+[2026-01-19T12:29:46.229+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.06s           2026-01-19T05:29:46
+================================================================================
+[2026-01-19T12:30:17.511+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.07s           2026-01-19T05:30:17
+================================================================================
+[2026-01-19T12:30:49.035+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.29s           2026-01-19T05:30:49
+================================================================================
+[2026-01-19T12:31:20.515+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.24s           2026-01-19T05:31:20
+================================================================================
+[2026-01-19T12:31:51.760+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.13s           2026-01-19T05:31:51
+================================================================================
+[2026-01-19T12:31:59.950+0700] {manager.py:738} INFO - Searching for files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:31:59.954+0700] {manager.py:741} INFO - There are 1 files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:32:22.932+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.06s           2026-01-19T05:32:22
+================================================================================
+[2026-01-19T12:32:54.352+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.31s           2026-01-19T05:32:54
+================================================================================
+[2026-01-19T12:33:25.849+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.39s           2026-01-19T05:33:25
+================================================================================
+[2026-01-19T12:33:57.252+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.33s           2026-01-19T05:33:57
+================================================================================
+[2026-01-19T12:34:28.773+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.45s           2026-01-19T05:34:28
+================================================================================
+[2026-01-19T12:35:00.039+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.25s           2026-01-19T05:35:00
+================================================================================
+[2026-01-19T12:35:31.556+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.44s           2026-01-19T05:35:31
+================================================================================
+[2026-01-19T12:36:02.755+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.13s           2026-01-19T05:36:02
+================================================================================
+[2026-01-19T12:36:33.989+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.16s           2026-01-19T05:36:33
+================================================================================
+[2026-01-19T12:37:00.068+0700] {manager.py:738} INFO - Searching for files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:37:00.070+0700] {manager.py:741} INFO - There are 1 files in /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags
+[2026-01-19T12:37:05.399+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.34s           2026-01-19T05:37:05
+================================================================================
+[2026-01-19T12:37:36.691+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.22s           2026-01-19T05:37:36
+================================================================================
+[2026-01-19T12:38:08.014+0700] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/airflow/dags/adventureworks_etl_dag.py                           1           0  1.25s           2026-01-19T05:38:08
+================================================================================

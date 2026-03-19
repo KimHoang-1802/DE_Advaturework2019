@@ -1,0 +1,1 @@
+[2026-01-19T12:04:44.919+0700] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: adventureworks_final.test_connection manual__2026-01-19T04:59:20.396464+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

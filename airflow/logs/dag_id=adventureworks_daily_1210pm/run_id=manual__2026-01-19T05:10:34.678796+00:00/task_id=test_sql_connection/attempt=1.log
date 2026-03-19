@@ -1,0 +1,50 @@
+[2026-01-19T12:10:40.227+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: adventureworks_daily_1210pm.test_sql_connection manual__2026-01-19T05:10:34.678796+00:00 [queued]>
+[2026-01-19T12:10:40.231+0700] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: adventureworks_daily_1210pm.test_sql_connection manual__2026-01-19T05:10:34.678796+00:00 [queued]>
+[2026-01-19T12:10:40.231+0700] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2026-01-19T12:10:40.237+0700] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): test_sql_connection> on 2026-01-19 05:10:34.678796+00:00
+[2026-01-19T12:10:40.240+0700] {standard_task_runner.py:60} INFO - Started process 74562 to run task
+[2026-01-19T12:10:40.244+0700] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'adventureworks_daily_1210pm', 'test_sql_connection', 'manual__2026-01-19T05:10:34.678796+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/adventureworks_etl_dag.py', '--cfg-path', '/var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T/tmpvduiqhb5']
+[2026-01-19T12:10:40.246+0700] {standard_task_runner.py:88} INFO - Job 39: Subtask test_sql_connection
+[2026-01-19T12:10:40.266+0700] {task_command.py:423} INFO - Running <TaskInstance: adventureworks_daily_1210pm.test_sql_connection manual__2026-01-19T05:10:34.678796+00:00 [running]> on host macbook-pro-2.fpt
+[2026-01-19T12:10:40.291+0700] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kimhoang' AIRFLOW_CTX_DAG_ID='adventureworks_daily_1210pm' AIRFLOW_CTX_TASK_ID='test_sql_connection' AIRFLOW_CTX_EXECUTION_DATE='2026-01-19T05:10:34.678796+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-19T05:10:34.678796+00:00'
+[2026-01-19T12:10:40.292+0700] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/dh/drrkwhq5347_9fqxfjd_vm600000gn/T
+[2026-01-19T12:10:40.292+0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt && dbt debug --profiles-dir /Users/tukimhoang/.dbt']
+[2026-01-19T12:10:40.296+0700] {subprocess.py:86} INFO - Output:
+[2026-01-19T12:10:41.345+0700] {subprocess.py:93} INFO - [0m05:10:41  Running with dbt=1.11.2
+[2026-01-19T12:10:41.355+0700] {subprocess.py:93} INFO - [0m05:10:41  dbt version: 1.11.2
+[2026-01-19T12:10:41.356+0700] {subprocess.py:93} INFO - [0m05:10:41  python version: 3.10.10
+[2026-01-19T12:10:41.356+0700] {subprocess.py:93} INFO - [0m05:10:41  python path: /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt-env/bin/python3.10
+[2026-01-19T12:10:41.356+0700] {subprocess.py:93} INFO - [0m05:10:41  os info: macOS-14.1-arm64-arm-64bit
+[2026-01-19T12:10:41.493+0700] {subprocess.py:93} INFO - [0m05:10:41  Using profiles dir at /Users/tukimhoang/.dbt
+[2026-01-19T12:10:41.493+0700] {subprocess.py:93} INFO - [0m05:10:41  Using profiles.yml file at /Users/tukimhoang/.dbt/profiles.yml
+[2026-01-19T12:10:41.493+0700] {subprocess.py:93} INFO - [0m05:10:41  Using dbt_project.yml file at /Users/tukimhoang/Documents/AdventureWorks_DataWarehouse_Project/dbt/dbt_project.yml
+[2026-01-19T12:10:41.494+0700] {subprocess.py:93} INFO - [0m05:10:41  adapter type: sqlserver
+[2026-01-19T12:10:41.494+0700] {subprocess.py:93} INFO - [0m05:10:41  adapter version: 1.9.0
+[2026-01-19T12:10:41.560+0700] {subprocess.py:93} INFO - [0m05:10:41  Configuration:
+[2026-01-19T12:10:41.560+0700] {subprocess.py:93} INFO - [0m05:10:41    profiles.yml file [[32mOK found and valid[0m]
+[2026-01-19T12:10:41.561+0700] {subprocess.py:93} INFO - [0m05:10:41    dbt_project.yml file [[32mOK found and valid[0m]
+[2026-01-19T12:10:41.561+0700] {subprocess.py:93} INFO - [0m05:10:41  Required dependencies:
+[2026-01-19T12:10:41.581+0700] {subprocess.py:93} INFO - [0m05:10:41   - git [[32mOK found[0m]
+[2026-01-19T12:10:41.581+0700] {subprocess.py:93} INFO - 
+[2026-01-19T12:10:41.581+0700] {subprocess.py:93} INFO - [0m05:10:41  Connection:
+[2026-01-19T12:10:41.582+0700] {subprocess.py:93} INFO - [0m05:10:41    server: localhost
+[2026-01-19T12:10:41.582+0700] {subprocess.py:93} INFO - [0m05:10:41    database: AdventureWorks2019
+[2026-01-19T12:10:41.582+0700] {subprocess.py:93} INFO - [0m05:10:41    schema: stagging
+[2026-01-19T12:10:41.582+0700] {subprocess.py:93} INFO - [0m05:10:41    UID: sa
+[2026-01-19T12:10:41.583+0700] {subprocess.py:93} INFO - [0m05:10:41    client_id: None
+[2026-01-19T12:10:41.583+0700] {subprocess.py:93} INFO - [0m05:10:41    authentication: sql
+[2026-01-19T12:10:41.583+0700] {subprocess.py:93} INFO - [0m05:10:41    encrypt: True
+[2026-01-19T12:10:41.583+0700] {subprocess.py:93} INFO - [0m05:10:41    trust_cert: True
+[2026-01-19T12:10:41.583+0700] {subprocess.py:93} INFO - [0m05:10:41    retries: 3
+[2026-01-19T12:10:41.584+0700] {subprocess.py:93} INFO - [0m05:10:41    login_timeout: 0
+[2026-01-19T12:10:41.584+0700] {subprocess.py:93} INFO - [0m05:10:41    query_timeout: 0
+[2026-01-19T12:10:41.584+0700] {subprocess.py:93} INFO - [0m05:10:41    trace_flag: False
+[2026-01-19T12:10:41.584+0700] {subprocess.py:93} INFO - [0m05:10:41    port: 1433
+[2026-01-19T12:10:41.585+0700] {subprocess.py:93} INFO - [0m05:10:41  Registered adapter: sqlserver=1.9.0
+[2026-01-19T12:10:41.820+0700] {subprocess.py:93} INFO - [0m05:10:41    Connection test: [[32mOK connection ok[0m]
+[2026-01-19T12:10:41.821+0700] {subprocess.py:93} INFO - 
+[2026-01-19T12:10:41.821+0700] {subprocess.py:93} INFO - [0m05:10:41  [32mAll checks passed![0m
+[2026-01-19T12:10:43.479+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-19T12:10:43.491+0700] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=adventureworks_daily_1210pm, task_id=test_sql_connection, execution_date=20260119T051034, start_date=20260119T051040, end_date=20260119T051043
+[2026-01-19T12:10:43.536+0700] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-19T12:10:43.548+0700] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check
