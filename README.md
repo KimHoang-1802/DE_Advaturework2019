@@ -94,7 +94,7 @@ Sử dụng **Star Schema**:
 
 ---
 
-## ▶️ Cách chạy dự án
+## Cách chạy dự án
 
 ### 1. Clone repo
 
