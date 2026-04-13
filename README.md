@@ -133,4 +133,4 @@ dbt test
 ## Tác giả
 
 **Kim Hoàng**
-Data Engineer (Aspiring) 🚀
+Data Engineer Intern 
